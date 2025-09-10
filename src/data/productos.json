@@ -1,0 +1,2002 @@
+[
+    {
+        "id": 1,
+        "nombre": "Producto 1 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 15.21,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 96.93,
+        "stock": 16,
+        "descripcion": "Descripci\u00f3n de Producto 1 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Producto 2 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 16.03,
+            "slugName": "god-of-war"
+        },
+        "precio": 75.2,
+        "stock": 13,
+        "descripcion": "Descripci\u00f3n de Producto 2 de God of War",
+        "imagen": "https://example.com/images/producto_2.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Producto 3 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 18.89,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 82.7,
+        "stock": 24,
+        "descripcion": "Descripci\u00f3n de Producto 3 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Producto 4 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 13.56,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 86.12,
+        "stock": 32,
+        "descripcion": "Descripci\u00f3n de Producto 4 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_4.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Producto 5 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 10.0,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 98.82,
+        "stock": 10,
+        "descripcion": "Descripci\u00f3n de Producto 5 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_5.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Producto 6 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 20.74,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 20.56,
+        "stock": 7,
+        "descripcion": "Descripci\u00f3n de Producto 6 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_6.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Producto 7 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 14.32,
+            "slugName": "god-of-war"
+        },
+        "precio": 88.07,
+        "stock": 16,
+        "descripcion": "Descripci\u00f3n de Producto 7 de God of War",
+        "imagen": "https://example.com/images/producto_7.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Producto 8 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 29.5,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 71.42,
+        "stock": 41,
+        "descripcion": "Descripci\u00f3n de Producto 8 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_8.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Producto 9 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 10.66,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 45.93,
+        "stock": 49,
+        "descripcion": "Descripci\u00f3n de Producto 9 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_9.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Producto 10 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 24.36,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 83.06,
+        "stock": 27,
+        "descripcion": "Descripci\u00f3n de Producto 10 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_10.png"
+    },
+    {
+        "id": 11,
+        "nombre": "Producto 11 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 22.81,
+            "slugName": "god-of-war"
+        },
+        "precio": 55.23,
+        "stock": 15,
+        "descripcion": "Descripci\u00f3n de Producto 11 de God of War",
+        "imagen": "https://example.com/images/producto_11.png"
+    },
+    {
+        "id": 12,
+        "nombre": "Producto 12 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 14.39,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 25.73,
+        "stock": 5,
+        "descripcion": "Descripci\u00f3n de Producto 12 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_12.png"
+    },
+    {
+        "id": 13,
+        "nombre": "Producto 13 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 19.96,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 17.21,
+        "stock": 19,
+        "descripcion": "Descripci\u00f3n de Producto 13 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_13.png"
+    },
+    {
+        "id": 14,
+        "nombre": "Producto 14 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 21.89,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 96.95,
+        "stock": 11,
+        "descripcion": "Descripci\u00f3n de Producto 14 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_14.png"
+    },
+    {
+        "id": 15,
+        "nombre": "Producto 15 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 20.84,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 42.48,
+        "stock": 9,
+        "descripcion": "Descripci\u00f3n de Producto 15 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_15.png"
+    },
+    {
+        "id": 16,
+        "nombre": "Producto 16 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 29.36,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 52.8,
+        "stock": 35,
+        "descripcion": "Descripci\u00f3n de Producto 16 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_16.png"
+    },
+    {
+        "id": 17,
+        "nombre": "Producto 17 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 8.77,
+            "slugName": "god-of-war"
+        },
+        "precio": 93.4,
+        "stock": 12,
+        "descripcion": "Descripci\u00f3n de Producto 17 de God of War",
+        "imagen": "https://example.com/images/producto_17.png"
+    },
+    {
+        "id": 18,
+        "nombre": "Producto 18 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 13.63,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 99.9,
+        "stock": 8,
+        "descripcion": "Descripci\u00f3n de Producto 18 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_18.png"
+    },
+    {
+        "id": 19,
+        "nombre": "Producto 19 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 26.9,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 74.46,
+        "stock": 41,
+        "descripcion": "Descripci\u00f3n de Producto 19 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_19.png"
+    },
+    {
+        "id": 20,
+        "nombre": "Producto 20 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 20.48,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 61.63,
+        "stock": 11,
+        "descripcion": "Descripci\u00f3n de Producto 20 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_20.png"
+    },
+    {
+        "id": 21,
+        "nombre": "Producto 21 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 11.15,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 85.66,
+        "stock": 36,
+        "descripcion": "Descripci\u00f3n de Producto 21 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_21.png"
+    },
+    {
+        "id": 22,
+        "nombre": "Producto 22 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 23.56,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 88.51,
+        "stock": 8,
+        "descripcion": "Descripci\u00f3n de Producto 22 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_22.png"
+    },
+    {
+        "id": 23,
+        "nombre": "Producto 23 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 14.25,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 20.79,
+        "stock": 32,
+        "descripcion": "Descripci\u00f3n de Producto 23 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_23.png"
+    },
+    {
+        "id": 24,
+        "nombre": "Producto 24 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 14.55,
+            "slugName": "god-of-war"
+        },
+        "precio": 10.98,
+        "stock": 36,
+        "descripcion": "Descripci\u00f3n de Producto 24 de God of War",
+        "imagen": "https://example.com/images/producto_24.png"
+    },
+    {
+        "id": 25,
+        "nombre": "Producto 25 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 9.28,
+            "slugName": "god-of-war"
+        },
+        "precio": 42.63,
+        "stock": 6,
+        "descripcion": "Descripci\u00f3n de Producto 25 de God of War",
+        "imagen": "https://example.com/images/producto_25.png"
+    },
+    {
+        "id": 26,
+        "nombre": "Producto 26 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 20.18,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 22.47,
+        "stock": 28,
+        "descripcion": "Descripci\u00f3n de Producto 26 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_26.png"
+    },
+    {
+        "id": 27,
+        "nombre": "Producto 27 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 5.36,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 74.1,
+        "stock": 7,
+        "descripcion": "Descripci\u00f3n de Producto 27 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_27.png"
+    },
+    {
+        "id": 28,
+        "nombre": "Producto 28 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 14.92,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 27.49,
+        "stock": 7,
+        "descripcion": "Descripci\u00f3n de Producto 28 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_28.png"
+    },
+    {
+        "id": 29,
+        "nombre": "Producto 29 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 29.5,
+            "slugName": "god-of-war"
+        },
+        "precio": 99.29,
+        "stock": 45,
+        "descripcion": "Descripci\u00f3n de Producto 29 de God of War",
+        "imagen": "https://example.com/images/producto_29.png"
+    },
+    {
+        "id": 30,
+        "nombre": "Producto 30 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 26.24,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 50.83,
+        "stock": 24,
+        "descripcion": "Descripci\u00f3n de Producto 30 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_30.png"
+    },
+    {
+        "id": 31,
+        "nombre": "Producto 31 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 23.24,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 28.52,
+        "stock": 24,
+        "descripcion": "Descripci\u00f3n de Producto 31 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_31.png"
+    },
+    {
+        "id": 32,
+        "nombre": "Producto 32 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 7.87,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 56.17,
+        "stock": 40,
+        "descripcion": "Descripci\u00f3n de Producto 32 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_32.png"
+    },
+    {
+        "id": 33,
+        "nombre": "Producto 33 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 12.65,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 68.26,
+        "stock": 42,
+        "descripcion": "Descripci\u00f3n de Producto 33 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_33.png"
+    },
+    {
+        "id": 34,
+        "nombre": "Producto 34 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 27.67,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 23.79,
+        "stock": 21,
+        "descripcion": "Descripci\u00f3n de Producto 34 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_34.png"
+    },
+    {
+        "id": 35,
+        "nombre": "Producto 35 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 18.55,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 55.5,
+        "stock": 24,
+        "descripcion": "Descripci\u00f3n de Producto 35 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_35.png"
+    },
+    {
+        "id": 36,
+        "nombre": "Producto 36 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 12.88,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 51.99,
+        "stock": 4,
+        "descripcion": "Descripci\u00f3n de Producto 36 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_36.png"
+    },
+    {
+        "id": 37,
+        "nombre": "Producto 37 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 10.39,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 74.72,
+        "stock": 20,
+        "descripcion": "Descripci\u00f3n de Producto 37 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_37.png"
+    },
+    {
+        "id": 38,
+        "nombre": "Producto 38 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 27.17,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 92.48,
+        "stock": 6,
+        "descripcion": "Descripci\u00f3n de Producto 38 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_38.png"
+    },
+    {
+        "id": 39,
+        "nombre": "Producto 39 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 14.11,
+            "slugName": "god-of-war"
+        },
+        "precio": 35.33,
+        "stock": 34,
+        "descripcion": "Descripci\u00f3n de Producto 39 de God of War",
+        "imagen": "https://example.com/images/producto_39.png"
+    },
+    {
+        "id": 40,
+        "nombre": "Producto 40 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 10.73,
+            "slugName": "god-of-war"
+        },
+        "precio": 84.26,
+        "stock": 14,
+        "descripcion": "Descripci\u00f3n de Producto 40 de God of War",
+        "imagen": "https://example.com/images/producto_40.png"
+    },
+    {
+        "id": 41,
+        "nombre": "Producto 41 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 17.23,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 62.69,
+        "stock": 37,
+        "descripcion": "Descripci\u00f3n de Producto 41 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_41.png"
+    },
+    {
+        "id": 42,
+        "nombre": "Producto 42 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 19.85,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 65.9,
+        "stock": 31,
+        "descripcion": "Descripci\u00f3n de Producto 42 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_42.png"
+    },
+    {
+        "id": 43,
+        "nombre": "Producto 43 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 10.99,
+            "slugName": "god-of-war"
+        },
+        "precio": 27.46,
+        "stock": 19,
+        "descripcion": "Descripci\u00f3n de Producto 43 de God of War",
+        "imagen": "https://example.com/images/producto_43.png"
+    },
+    {
+        "id": 44,
+        "nombre": "Producto 44 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 29.28,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 93.81,
+        "stock": 47,
+        "descripcion": "Descripci\u00f3n de Producto 44 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_44.png"
+    },
+    {
+        "id": 45,
+        "nombre": "Producto 45 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 22.46,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 96.55,
+        "stock": 50,
+        "descripcion": "Descripci\u00f3n de Producto 45 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_45.png"
+    },
+    {
+        "id": 46,
+        "nombre": "Producto 46 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 12.41,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 31.39,
+        "stock": 43,
+        "descripcion": "Descripci\u00f3n de Producto 46 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_46.png"
+    },
+    {
+        "id": 47,
+        "nombre": "Producto 47 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 18.68,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 12.83,
+        "stock": 16,
+        "descripcion": "Descripci\u00f3n de Producto 47 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_47.png"
+    },
+    {
+        "id": 48,
+        "nombre": "Producto 48 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 19.11,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 28.0,
+        "stock": 34,
+        "descripcion": "Descripci\u00f3n de Producto 48 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_48.png"
+    },
+    {
+        "id": 49,
+        "nombre": "Producto 49 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 21.36,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 82.63,
+        "stock": 41,
+        "descripcion": "Descripci\u00f3n de Producto 49 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_49.png"
+    },
+    {
+        "id": 50,
+        "nombre": "Producto 50 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 19.91,
+            "slugName": "god-of-war"
+        },
+        "precio": 22.23,
+        "stock": 33,
+        "descripcion": "Descripci\u00f3n de Producto 50 de God of War",
+        "imagen": "https://example.com/images/producto_50.png"
+    },
+    {
+        "id": 51,
+        "nombre": "Producto 51 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 23.96,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 23.87,
+        "stock": 16,
+        "descripcion": "Descripci\u00f3n de Producto 51 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_51.png"
+    },
+    {
+        "id": 52,
+        "nombre": "Producto 52 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 24.81,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 87.78,
+        "stock": 38,
+        "descripcion": "Descripci\u00f3n de Producto 52 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_52.png"
+    },
+    {
+        "id": 53,
+        "nombre": "Producto 53 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 6.77,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 57.57,
+        "stock": 33,
+        "descripcion": "Descripci\u00f3n de Producto 53 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_53.png"
+    },
+    {
+        "id": 54,
+        "nombre": "Producto 54 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 8.87,
+            "slugName": "god-of-war"
+        },
+        "precio": 26.76,
+        "stock": 40,
+        "descripcion": "Descripci\u00f3n de Producto 54 de God of War",
+        "imagen": "https://example.com/images/producto_54.png"
+    },
+    {
+        "id": 55,
+        "nombre": "Producto 55 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 21.34,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 80.13,
+        "stock": 9,
+        "descripcion": "Descripci\u00f3n de Producto 55 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_55.png"
+    },
+    {
+        "id": 56,
+        "nombre": "Producto 56 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 17.64,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 41.19,
+        "stock": 11,
+        "descripcion": "Descripci\u00f3n de Producto 56 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_56.png"
+    },
+    {
+        "id": 57,
+        "nombre": "Producto 57 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 10.29,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 55.83,
+        "stock": 44,
+        "descripcion": "Descripci\u00f3n de Producto 57 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_57.png"
+    },
+    {
+        "id": 58,
+        "nombre": "Producto 58 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 19.6,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 55.49,
+        "stock": 40,
+        "descripcion": "Descripci\u00f3n de Producto 58 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_58.png"
+    },
+    {
+        "id": 59,
+        "nombre": "Producto 59 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 22.73,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 18.16,
+        "stock": 34,
+        "descripcion": "Descripci\u00f3n de Producto 59 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_59.png"
+    },
+    {
+        "id": 60,
+        "nombre": "Producto 60 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 9.04,
+            "slugName": "god-of-war"
+        },
+        "precio": 68.12,
+        "stock": 50,
+        "descripcion": "Descripci\u00f3n de Producto 60 de God of War",
+        "imagen": "https://example.com/images/producto_60.png"
+    },
+    {
+        "id": 61,
+        "nombre": "Producto 61 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 16.71,
+            "slugName": "god-of-war"
+        },
+        "precio": 14.29,
+        "stock": 29,
+        "descripcion": "Descripci\u00f3n de Producto 61 de God of War",
+        "imagen": "https://example.com/images/producto_61.png"
+    },
+    {
+        "id": 62,
+        "nombre": "Producto 62 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 9.99,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 50.76,
+        "stock": 28,
+        "descripcion": "Descripci\u00f3n de Producto 62 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_62.png"
+    },
+    {
+        "id": 63,
+        "nombre": "Producto 63 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 7.27,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 81.56,
+        "stock": 7,
+        "descripcion": "Descripci\u00f3n de Producto 63 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_63.png"
+    },
+    {
+        "id": 64,
+        "nombre": "Producto 64 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 19.65,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 94.07,
+        "stock": 41,
+        "descripcion": "Descripci\u00f3n de Producto 64 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_64.png"
+    },
+    {
+        "id": 65,
+        "nombre": "Producto 65 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 7.77,
+            "slugName": "god-of-war"
+        },
+        "precio": 98.87,
+        "stock": 4,
+        "descripcion": "Descripci\u00f3n de Producto 65 de God of War",
+        "imagen": "https://example.com/images/producto_65.png"
+    },
+    {
+        "id": 66,
+        "nombre": "Producto 66 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 20.57,
+            "slugName": "god-of-war"
+        },
+        "precio": 48.61,
+        "stock": 1,
+        "descripcion": "Descripci\u00f3n de Producto 66 de God of War",
+        "imagen": "https://example.com/images/producto_66.png"
+    },
+    {
+        "id": 67,
+        "nombre": "Producto 67 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 26.38,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 71.25,
+        "stock": 12,
+        "descripcion": "Descripci\u00f3n de Producto 67 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_67.png"
+    },
+    {
+        "id": 68,
+        "nombre": "Producto 68 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 14.98,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 72.6,
+        "stock": 22,
+        "descripcion": "Descripci\u00f3n de Producto 68 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_68.png"
+    },
+    {
+        "id": 69,
+        "nombre": "Producto 69 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 5.69,
+            "slugName": "god-of-war"
+        },
+        "precio": 26.17,
+        "stock": 27,
+        "descripcion": "Descripci\u00f3n de Producto 69 de God of War",
+        "imagen": "https://example.com/images/producto_69.png"
+    },
+    {
+        "id": 70,
+        "nombre": "Producto 70 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 25.06,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 46.1,
+        "stock": 20,
+        "descripcion": "Descripci\u00f3n de Producto 70 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_70.png"
+    },
+    {
+        "id": 71,
+        "nombre": "Producto 71 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 10.57,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 65.6,
+        "stock": 22,
+        "descripcion": "Descripci\u00f3n de Producto 71 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_71.png"
+    },
+    {
+        "id": 72,
+        "nombre": "Producto 72 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 19.7,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 23.95,
+        "stock": 44,
+        "descripcion": "Descripci\u00f3n de Producto 72 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_72.png"
+    },
+    {
+        "id": 73,
+        "nombre": "Producto 73 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 6.44,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 46.6,
+        "stock": 4,
+        "descripcion": "Descripci\u00f3n de Producto 73 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_73.png"
+    },
+    {
+        "id": 74,
+        "nombre": "Producto 74 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 29.63,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 55.01,
+        "stock": 29,
+        "descripcion": "Descripci\u00f3n de Producto 74 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_74.png"
+    },
+    {
+        "id": 75,
+        "nombre": "Producto 75 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 12.76,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 46.38,
+        "stock": 21,
+        "descripcion": "Descripci\u00f3n de Producto 75 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_75.png"
+    },
+    {
+        "id": 76,
+        "nombre": "Producto 76 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 29.45,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 12.44,
+        "stock": 4,
+        "descripcion": "Descripci\u00f3n de Producto 76 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_76.png"
+    },
+    {
+        "id": 77,
+        "nombre": "Producto 77 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 13.46,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 83.0,
+        "stock": 8,
+        "descripcion": "Descripci\u00f3n de Producto 77 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_77.png"
+    },
+    {
+        "id": 78,
+        "nombre": "Producto 78 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 29.67,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 43.59,
+        "stock": 3,
+        "descripcion": "Descripci\u00f3n de Producto 78 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_78.png"
+    },
+    {
+        "id": 79,
+        "nombre": "Producto 79 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 6.81,
+            "slugName": "god-of-war"
+        },
+        "precio": 36.23,
+        "stock": 19,
+        "descripcion": "Descripci\u00f3n de Producto 79 de God of War",
+        "imagen": "https://example.com/images/producto_79.png"
+    },
+    {
+        "id": 80,
+        "nombre": "Producto 80 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 15.73,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 75.9,
+        "stock": 41,
+        "descripcion": "Descripci\u00f3n de Producto 80 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_80.png"
+    },
+    {
+        "id": 81,
+        "nombre": "Producto 81 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 26.84,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 48.86,
+        "stock": 27,
+        "descripcion": "Descripci\u00f3n de Producto 81 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_81.png"
+    },
+    {
+        "id": 82,
+        "nombre": "Producto 82 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 29.22,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 57.1,
+        "stock": 24,
+        "descripcion": "Descripci\u00f3n de Producto 82 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_82.png"
+    },
+    {
+        "id": 83,
+        "nombre": "Producto 83 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 7.06,
+            "slugName": "god-of-war"
+        },
+        "precio": 51.3,
+        "stock": 5,
+        "descripcion": "Descripci\u00f3n de Producto 83 de God of War",
+        "imagen": "https://example.com/images/producto_83.png"
+    },
+    {
+        "id": 84,
+        "nombre": "Producto 84 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 28.43,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 75.6,
+        "stock": 22,
+        "descripcion": "Descripci\u00f3n de Producto 84 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_84.png"
+    },
+    {
+        "id": 85,
+        "nombre": "Producto 85 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 17.34,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 90.53,
+        "stock": 37,
+        "descripcion": "Descripci\u00f3n de Producto 85 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_85.png"
+    },
+    {
+        "id": 86,
+        "nombre": "Producto 86 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 29.05,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 26.5,
+        "stock": 5,
+        "descripcion": "Descripci\u00f3n de Producto 86 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_86.png"
+    },
+    {
+        "id": 87,
+        "nombre": "Producto 87 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 7.1,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 76.91,
+        "stock": 43,
+        "descripcion": "Descripci\u00f3n de Producto 87 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_87.png"
+    },
+    {
+        "id": 88,
+        "nombre": "Producto 88 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 23.93,
+            "slugName": "god-of-war"
+        },
+        "precio": 66.17,
+        "stock": 27,
+        "descripcion": "Descripci\u00f3n de Producto 88 de God of War",
+        "imagen": "https://example.com/images/producto_88.png"
+    },
+    {
+        "id": 89,
+        "nombre": "Producto 89 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 24.06,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 35.88,
+        "stock": 34,
+        "descripcion": "Descripci\u00f3n de Producto 89 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_89.png"
+    },
+    {
+        "id": 90,
+        "nombre": "Producto 90 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 24.95,
+            "slugName": "god-of-war"
+        },
+        "precio": 81.66,
+        "stock": 23,
+        "descripcion": "Descripci\u00f3n de Producto 90 de God of War",
+        "imagen": "https://example.com/images/producto_90.png"
+    },
+    {
+        "id": 91,
+        "nombre": "Producto 91 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 15.13,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 62.84,
+        "stock": 39,
+        "descripcion": "Descripci\u00f3n de Producto 91 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_91.png"
+    },
+    {
+        "id": 92,
+        "nombre": "Producto 92 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 12.56,
+            "slugName": "god-of-war"
+        },
+        "precio": 46.54,
+        "stock": 36,
+        "descripcion": "Descripci\u00f3n de Producto 92 de God of War",
+        "imagen": "https://example.com/images/producto_92.png"
+    },
+    {
+        "id": 93,
+        "nombre": "Producto 93 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 28.74,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 32.77,
+        "stock": 26,
+        "descripcion": "Descripci\u00f3n de Producto 93 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_93.png"
+    },
+    {
+        "id": 94,
+        "nombre": "Producto 94 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 5.53,
+            "slugName": "god-of-war"
+        },
+        "precio": 53.93,
+        "stock": 40,
+        "descripcion": "Descripci\u00f3n de Producto 94 de God of War",
+        "imagen": "https://example.com/images/producto_94.png"
+    },
+    {
+        "id": 95,
+        "nombre": "Producto 95 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 28.12,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 86.31,
+        "stock": 18,
+        "descripcion": "Descripci\u00f3n de Producto 95 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_95.png"
+    },
+    {
+        "id": 96,
+        "nombre": "Producto 96 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 14.63,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 89.53,
+        "stock": 14,
+        "descripcion": "Descripci\u00f3n de Producto 96 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_96.png"
+    },
+    {
+        "id": 97,
+        "nombre": "Producto 97 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 13.34,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 87.91,
+        "stock": 19,
+        "descripcion": "Descripci\u00f3n de Producto 97 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_97.png"
+    },
+    {
+        "id": 98,
+        "nombre": "Producto 98 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 14.49,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 59.55,
+        "stock": 39,
+        "descripcion": "Descripci\u00f3n de Producto 98 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_98.png"
+    },
+    {
+        "id": 99,
+        "nombre": "Producto 99 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 20.33,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 37.67,
+        "stock": 25,
+        "descripcion": "Descripci\u00f3n de Producto 99 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_99.png"
+    },
+    {
+        "id": 100,
+        "nombre": "Producto 100 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 26.67,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 95.82,
+        "stock": 35,
+        "descripcion": "Descripci\u00f3n de Producto 100 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_100.png"
+    },
+    {
+        "id": 101,
+        "nombre": "Producto 101 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 20.13,
+            "slugName": "god-of-war"
+        },
+        "precio": 35.88,
+        "stock": 28,
+        "descripcion": "Descripci\u00f3n de Producto 101 de God of War",
+        "imagen": "https://example.com/images/producto_101.png"
+    },
+    {
+        "id": 102,
+        "nombre": "Producto 102 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 22.95,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 19.25,
+        "stock": 21,
+        "descripcion": "Descripci\u00f3n de Producto 102 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_102.png"
+    },
+    {
+        "id": 103,
+        "nombre": "Producto 103 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 26.63,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 40.65,
+        "stock": 32,
+        "descripcion": "Descripci\u00f3n de Producto 103 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_103.png"
+    },
+    {
+        "id": 104,
+        "nombre": "Producto 104 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 12.13,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 31.03,
+        "stock": 7,
+        "descripcion": "Descripci\u00f3n de Producto 104 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_104.png"
+    },
+    {
+        "id": 105,
+        "nombre": "Producto 105 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 25.52,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 74.2,
+        "stock": 34,
+        "descripcion": "Descripci\u00f3n de Producto 105 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_105.png"
+    },
+    {
+        "id": 106,
+        "nombre": "Producto 106 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 15.03,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 12.92,
+        "stock": 17,
+        "descripcion": "Descripci\u00f3n de Producto 106 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_106.png"
+    },
+    {
+        "id": 107,
+        "nombre": "Producto 107 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 18.12,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 37.31,
+        "stock": 27,
+        "descripcion": "Descripci\u00f3n de Producto 107 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_107.png"
+    },
+    {
+        "id": 108,
+        "nombre": "Producto 108 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 26.11,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 90.46,
+        "stock": 44,
+        "descripcion": "Descripci\u00f3n de Producto 108 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_108.png"
+    },
+    {
+        "id": 109,
+        "nombre": "Producto 109 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 21.11,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 21.17,
+        "stock": 46,
+        "descripcion": "Descripci\u00f3n de Producto 109 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_109.png"
+    },
+    {
+        "id": 110,
+        "nombre": "Producto 110 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 8.33,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 43.9,
+        "stock": 3,
+        "descripcion": "Descripci\u00f3n de Producto 110 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_110.png"
+    },
+    {
+        "id": 111,
+        "nombre": "Producto 111 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 23.83,
+            "slugName": "god-of-war"
+        },
+        "precio": 71.68,
+        "stock": 25,
+        "descripcion": "Descripci\u00f3n de Producto 111 de God of War",
+        "imagen": "https://example.com/images/producto_111.png"
+    },
+    {
+        "id": 112,
+        "nombre": "Producto 112 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 25.41,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 19.04,
+        "stock": 16,
+        "descripcion": "Descripci\u00f3n de Producto 112 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_112.png"
+    },
+    {
+        "id": 113,
+        "nombre": "Producto 113 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 11.08,
+            "slugName": "god-of-war"
+        },
+        "precio": 30.27,
+        "stock": 17,
+        "descripcion": "Descripci\u00f3n de Producto 113 de God of War",
+        "imagen": "https://example.com/images/producto_113.png"
+    },
+    {
+        "id": 114,
+        "nombre": "Producto 114 de OSRS",
+        "game": {
+            "id": 2,
+            "name": "Oldschool Runescape",
+            "shortName": "OSRS",
+            "icono": "osrs.png",
+            "currencyPercentage": 20.36,
+            "slugName": "oldschool-runescape"
+        },
+        "precio": 82.08,
+        "stock": 28,
+        "descripcion": "Descripci\u00f3n de Producto 114 de Oldschool Runescape",
+        "imagen": "https://example.com/images/producto_114.png"
+    },
+    {
+        "id": 115,
+        "nombre": "Producto 115 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 6.76,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 39.25,
+        "stock": 14,
+        "descripcion": "Descripci\u00f3n de Producto 115 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_115.png"
+    },
+    {
+        "id": 116,
+        "nombre": "Producto 116 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 17.91,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 24.46,
+        "stock": 12,
+        "descripcion": "Descripci\u00f3n de Producto 116 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_116.png"
+    },
+    {
+        "id": 117,
+        "nombre": "Producto 117 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 19.9,
+            "slugName": "god-of-war"
+        },
+        "precio": 40.81,
+        "stock": 14,
+        "descripcion": "Descripci\u00f3n de Producto 117 de God of War",
+        "imagen": "https://example.com/images/producto_117.png"
+    },
+    {
+        "id": 118,
+        "nombre": "Producto 118 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 8.29,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 31.82,
+        "stock": 7,
+        "descripcion": "Descripci\u00f3n de Producto 118 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_118.png"
+    },
+    {
+        "id": 119,
+        "nombre": "Producto 119 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 14.58,
+            "slugName": "god-of-war"
+        },
+        "precio": 60.42,
+        "stock": 15,
+        "descripcion": "Descripci\u00f3n de Producto 119 de God of War",
+        "imagen": "https://example.com/images/producto_119.png"
+    },
+    {
+        "id": 120,
+        "nombre": "Producto 120 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 7.06,
+            "slugName": "god-of-war"
+        },
+        "precio": 11.04,
+        "stock": 44,
+        "descripcion": "Descripci\u00f3n de Producto 120 de God of War",
+        "imagen": "https://example.com/images/producto_120.png"
+    },
+    {
+        "id": 121,
+        "nombre": "Producto 121 de GOW",
+        "game": {
+            "id": 5,
+            "name": "God of War",
+            "shortName": "GOW",
+            "icono": "gow.png",
+            "currencyPercentage": 17.87,
+            "slugName": "god-of-war"
+        },
+        "precio": 57.34,
+        "stock": 38,
+        "descripcion": "Descripci\u00f3n de Producto 121 de God of War",
+        "imagen": "https://example.com/images/producto_121.png"
+    },
+    {
+        "id": 122,
+        "nombre": "Producto 122 de RS3",
+        "game": {
+            "id": 1,
+            "name": "Resident Evil 3",
+            "shortName": "RS3",
+            "icono": "rs3.png",
+            "currencyPercentage": 26.4,
+            "slugName": "resident-evil-3"
+        },
+        "precio": 85.15,
+        "stock": 29,
+        "descripcion": "Descripci\u00f3n de Producto 122 de Resident Evil 3",
+        "imagen": "https://example.com/images/producto_122.png"
+    },
+    {
+        "id": 123,
+        "nombre": "Producto 123 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 16.68,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 41.06,
+        "stock": 5,
+        "descripcion": "Descripci\u00f3n de Producto 123 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_123.png"
+    },
+    {
+        "id": 124,
+        "nombre": "Producto 124 de TW3",
+        "game": {
+            "id": 3,
+            "name": "The Witcher 3",
+            "shortName": "TW3",
+            "icono": "tw3.png",
+            "currencyPercentage": 27.63,
+            "slugName": "the-witcher-3"
+        },
+        "precio": 59.44,
+        "stock": 28,
+        "descripcion": "Descripci\u00f3n de Producto 124 de The Witcher 3",
+        "imagen": "https://example.com/images/producto_124.png"
+    },
+    {
+        "id": 125,
+        "nombre": "Producto 125 de CP2077",
+        "game": {
+            "id": 4,
+            "name": "Cyberpunk 2077",
+            "shortName": "CP2077",
+            "icono": "cp2077.png",
+            "currencyPercentage": 20.45,
+            "slugName": "cyberpunk-2077"
+        },
+        "precio": 60.03,
+        "stock": 9,
+        "descripcion": "Descripci\u00f3n de Producto 125 de Cyberpunk 2077",
+        "imagen": "https://example.com/images/producto_125.png"
+    }
+]
