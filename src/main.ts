@@ -1,3 +1,5 @@
+
+import './styles/main.css';
 import Aurelia from 'aurelia';
 import { MyApp } from './my-app';
 
