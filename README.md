@@ -26,6 +26,8 @@ Run unit tests in watch mode.
     - Estilos en CSS puro (sin frameworks).
     - Cards mantienen proporción vía `aspect-ratio`.
     - Se sustituyeron imágenes por assets de ejemplo.
+    - los estilos globales estan en main.css, los estilos espeficos en cada componente.
+    
 
     
 

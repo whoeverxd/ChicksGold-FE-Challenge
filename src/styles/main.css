@@ -565,3 +565,47 @@
     align-items: center;
     justify-content: center;
 }
+.row-justified {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-content-padding{
+    margin-top: 60px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+
+}
+.full-width {
+    width: 100%;
+}
+#epic-background {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+
+    /* Fondo con imagen + overlay */
+    background:
+        linear-gradient(rgba(20, 25, 40, 0.95),
+            rgba(20, 25, 40, 0.95)),
+        url('src/assets/background.jpg'); /* Reemplaza con tu imagen */
+
+    background-size: cover;
+    /* Que cubra todo */
+    background-position: center;
+    /* Centrada */
+    background-attachment: fixed;
+    /* Efecto parallax */
+    color: white;
+    position: relative;
+    display: flex;
+}
+.padded-box {
+    padding: 50px 25px;
+}
+.bg-primary {
+    background-color: var(--bg-primary);
+}
+.bg-secondary {
+    background-color: var(--bg-secondary);
+}

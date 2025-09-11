@@ -1,0 +1,9 @@
+<template>
+ <div class="padded-box bg-primary">
+    <div class="row-justified">
+        <div>
+            <span>Showing ${page * pageSize - pageSize + 1} - ${Math.min(page * pageSize, total)} of ${total}</span>
+        </div>
+    </div>
+ </div>
+</template>

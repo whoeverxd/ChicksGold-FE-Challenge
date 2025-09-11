@@ -1,0 +1,20 @@
+<template>
+  <require from="../../components/element-list/element-list"></require>
+  <section class="home">
+    <div id="epic-background">
+      <div class="main-content-padding full-width ">
+        <div class="container">
+          <div class="main-title-area">
+            <h1 class="main-title">Condimentum consectetur</h1>
+          </div>
+          <element-list items.bind="pagedItems" page.bind="page" page-size.bind="pageSize"
+            total.bind="filteredProducts.length">
+          </element-list>
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+</template>
