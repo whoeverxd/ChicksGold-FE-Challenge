@@ -44,4 +44,7 @@ export class Home {
 		}
 		this.page = 1;
 	}
+	onPageChange = (newPage: number) => {
+		this.page = newPage;
+	}  
 }

@@ -1,4 +1,5 @@
 <template>
+    <require from="../pagination/pagination"></require>
     <div class="padded-box bg-primary">
         <div class="row-justified">
             <div>
@@ -23,5 +24,11 @@
                 </ul>
             </div>
         </div>
+        <pagination 
+            page.bind="page" 
+            page-size.bind="pageSize" 
+            total.bind="total"
+            page-change.bind="onPageChange">
+        </pagination>
     </div>
 </template>
