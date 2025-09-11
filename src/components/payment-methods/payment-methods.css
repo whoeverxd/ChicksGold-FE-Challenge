@@ -4,10 +4,37 @@
   gap: 24px;
   min-height: 60px;
   padding: 16px 0;
+  background-color: var(--bg-primary);
+
 }
 
 .payment-placeholder {
   color: #b0b3c6;
   font-size: 1.2rem;
   opacity: 0.7;
+}
+
+.payment-methods-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+  margin: 0;
+}
+
+img.payment-logo.payment-logo-lg {
+  height: 100px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+img.payment-logo.payment-logo-sm {
+  height: 3%;
+  width: 30px;
+}
+
+li.payment-method-item.payment-more {
+  color: #BEBFC3;
 }
