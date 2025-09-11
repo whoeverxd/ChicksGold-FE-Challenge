@@ -1,9 +1,27 @@
 <template>
- <div class="padded-box bg-primary">
-    <div class="row-justified">
-        <div>
-            <span>Showing ${page * pageSize - pageSize + 1} - ${Math.min(page * pageSize, total)} of ${total}</span>
+    <div class="padded-box bg-primary">
+        <div class="row-justified">
+            <div>
+                <span>Showing ${page * pageSize - pageSize + 1} - ${Math.min(page * pageSize, total)} of ${total}</span>
+            </div>
+            <div class="sort-dropdown-wrapper">
+                <button class="sort-dropdown-btn" click.trigger="isSortOpen = !isSortOpen">
+                    <img src="/src/assets/icons/filter.svg" alt="Sort Icon" class="sort-icon-vertical" />
+                    <div class="sort-dropdown-labels">
+                        <span class="sort-label">Sort By</span>
+                        <span class="sort-selected">${selectedSort}</span>
+                    </div>
+                    <svg class="sort-arrow-vertical${isSortOpen ? ' open' : ''}" width="20" height="20"
+                        viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <polyline points="6 9 12 15 18 9" />
+                    </svg>
+                </button>
+                <ul if.bind="isSortOpen" class="sort-dropdown-list">
+                    <li repeat.for="option of sortOptions" class="sort-dropdown-item"
+                        click.trigger="selectSort(option)">${option}</li>
+                </ul>
+            </div>
         </div>
     </div>
- </div>
 </template>

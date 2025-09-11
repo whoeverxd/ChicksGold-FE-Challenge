@@ -7,8 +7,12 @@
           <div class="main-title-area">
             <h1 class="main-title">Condimentum consectetur</h1>
           </div>
-          <element-list items.bind="pagedItems" page.bind="page" page-size.bind="pageSize"
-            total.bind="filteredProducts.length">
+          <element-list 
+            items.bind="pagedItems" 
+            page.bind="page" 
+            page-size.bind="pageSize"
+            total.bind="filteredProducts.length"
+            sort-change.bind="onSortChange">
           </element-list>
 
         </div>

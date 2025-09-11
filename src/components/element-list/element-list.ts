@@ -7,4 +7,17 @@ export class ElementList {
     @bindable page = 1;
     @bindable pageSize = 10;
     @bindable total = 0;
+    @bindable sortChange: (sort: string) => void;
+
+    isSortOpen = false;
+    selectedSort = 'Featured';
+    sortOptions = ['Featured', 'Price: Low to High', 'Price: High to Low', 'Stock', 'Name'];
+
+    selectSort(option: string) {
+        this.selectedSort = option;
+        this.isSortOpen = false;
+        if (this.sortChange) {
+            this.sortChange(option);
+        }
+    }
 }
