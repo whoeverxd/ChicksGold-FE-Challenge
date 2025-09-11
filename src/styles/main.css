@@ -39,6 +39,20 @@
 
 }
 
+/* Social row del footer */
+.footer-social-row {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 24px;
+}
+
+.footer-social-icon img {
+    display: block;
+    margin: 0 auto;
+}
+
 .footer-container {
     display: flex;
     flex-direction: column;
