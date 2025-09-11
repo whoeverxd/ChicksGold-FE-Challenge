@@ -9,6 +9,13 @@ export class CurrencySelector {
 	currencies = ['USD', 'EUR', 'GBP', 'AUD', 'BRL', 'ARS', 'CLP', 'COP', 'MXN'];
 	closeTimeout: any = null;
 
+	constructor() {
+		const saved = localStorage.getItem('selectedCurrency');
+		if (saved && this.currencies.includes(saved)) {
+			this.selectedCurrency = saved;
+		}
+	}
+
 	open() {
 		if (this.closeTimeout) {
 			clearTimeout(this.closeTimeout);
@@ -24,6 +31,7 @@ export class CurrencySelector {
 	}
 	selectCurrency(currency: string) {
 		this.selectedCurrency = currency;
+		localStorage.setItem('selectedCurrency', currency);
 		this.isOpen = false;
 	}
 }

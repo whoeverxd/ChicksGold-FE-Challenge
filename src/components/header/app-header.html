@@ -1,6 +1,7 @@
 <template>
 <require from="./cart-icon"></require>
 <require from="./currency-selector"></require>
+<require from="./category-navigation"></require>
     <header class="main-header">
         <div class="header-content">
             <div class="header-left">
@@ -9,30 +10,24 @@
                 </button>
                 <img src="/src/assets/logo/chicks-logo-large.svg" alt="Logo" class="header-logo" click.trigger="onLogoClick()" style="cursor:pointer;" />
             </div>
-            <nav class="header-center">
-                <a href="#" class="header-link">Currency</a>
-                <a href="#" class="header-link">Items</a>
-                <a href="#" class="header-link">Accounts</a>
-                <a href="#" class="header-link">Services</a>
-                <a href="#" class="header-link">Swap</a>
-                <a href="#" class="header-link">Sell</a>
-            </nav>
+            <category-navigation></category-navigation>
+            <div class="header-spacer"></div>
             <div class="header-right">
                 <cart-icon items.bind="5"></cart-icon>
                 <currency-selector></currency-selector>
-                    <button class="header-signin sign-in-button">
-                        SIGN IN
-                        <span class="user-icon" aria-hidden="true">
-                            <svg class="user-icon-outline" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#23243a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                                <circle cx="12" cy="8" r="4"/>
-                                <path d="M4 20c0-2.5 3.5-4 8-4s8 1.5 8 4"/>
-                            </svg>
-                            <svg class="user-icon-filled" width="22" height="22" viewBox="0 0 24 24" fill="#23243a">
-                                <circle cx="12" cy="8" r="4"/>
-                                <path d="M4 20c0-2.5 3.5-4 8-4s8 1.5 8 4"/>
-                            </svg>
-                        </span>
-                    </button>
+                <button class="header-signin sign-in-button">
+                    SIGN IN
+                    <span class="user-icon" aria-hidden="true">
+                        <svg class="user-icon-outline" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#23243a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="8" r="4"/>
+                            <path d="M4 20c0-2.5 3.5-4 8-4s8 1.5 8 4"/>
+                        </svg>
+                        <svg class="user-icon-filled" width="22" height="22" viewBox="0 0 24 24" fill="#23243a">
+                            <circle cx="12" cy="8" r="4"/>
+                            <path d="M4 20c0-2.5 3.5-4 8-4s8 1.5 8 4"/>
+                        </svg>
+                    </span>
+                </button>
             </div>
         </div>
     </header>
