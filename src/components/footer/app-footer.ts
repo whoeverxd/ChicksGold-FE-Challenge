@@ -1,5 +1,5 @@
 import { customElement } from 'aurelia';
-// import './app-footer.css';
+import './app-footer.css';
 
 @customElement('app-footer')
 export class AppFooter {

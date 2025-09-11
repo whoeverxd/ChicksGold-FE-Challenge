@@ -178,5 +178,49 @@
         align-items: center;
         padding: 0;
     }
+    .footer-container {
+        padding: 32px 8px 0 8px;
+    }
+    .footer-center-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+        width: 100%;
+    }
+    .footer-left-box,
+    .footer-right-box {
+        align-items: center !important;
+        margin-right: 0;
+        min-width: 0;
+        width: 100%;
+        justify-content: center;
+    }
+    .footer-logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-trustpilot-row {
+        justify-content: center;
+        margin-top: 1.2rem;
+    }
+}
+@media (max-width: 600px) {
+    .footer-container {
+        padding: 20px 2vw 0 2vw;
+    }
+    .footer-logo {
+        width: 110px;
+    }
+    .footer-trustpilot-text {
+        font-size: 1rem;
+    }
+    .trustpilot-star {
+        width: 22px;
+        height: 22px;
+    }
+    .footer-center-box,
+    .footer-columns {
+        gap: 0.7rem;
+    }
 }
 

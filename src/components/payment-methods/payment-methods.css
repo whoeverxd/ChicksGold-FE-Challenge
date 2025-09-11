@@ -35,6 +35,6 @@ img.payment-logo.payment-logo-sm {
   width: 30px;
 }
 
-li.payment-method-item.payment-more {
+li.payment-method-item > .payment-more {
   color: #BEBFC3;
 }

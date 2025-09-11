@@ -6,6 +6,6 @@ export class CartIcon {
     @bindable items: number = 0;
 
     onCartClick() {
-        window.location.href = '/cart.html';
+        window.location.href = '/cart';
     }
 }
