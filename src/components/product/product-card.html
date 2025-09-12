@@ -1,0 +1,26 @@
+<template>
+  <div class="product-card">
+    <div class="product-card-header">
+      <div class="card-header-left">
+        <div class="onsale-status">
+          <span class="onsale-dot"></span>
+          <span class="onsale-label">ON SALE</span>
+        </div>
+        <div class="stock-row">
+          <span class="stock-status">In stock</span>
+        </div>
+      </div>
+      <div class="qty-box">
+        <button class="qty-btn" click.trigger="decreaseQty()">&#x25B2;</button>
+        <span class="qty-value">${qty}</span>
+        <button class="qty-btn" click.trigger="increaseQty()">&#x25BC;</button>
+      </div>
+    </div>
+    <div class="product-image">
+
+    </div>
+    <div class="product-card-footer">
+      <button class="add-btn" click.trigger="addToCart()">ADD</button>
+    </div>
+  </div>
+</template>

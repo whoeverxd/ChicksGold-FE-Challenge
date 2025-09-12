@@ -2,17 +2,38 @@
     {
         "id": 1,
         "nombre": "Producto 1 de OSRS",
-        "game": {
-            "id": 2,
-            "name": "Oldschool Runescape",
-            "shortName": "OSRS",
-            "icono": "osrs.png",
-            "currencyPercentage": 15.21,
-            "slugName": "oldschool-runescape"
-        },
+        "gameId": 1,
         "precio": 96.93,
         "stock": 16,
         "descripcion": "Descripci\u00f3n de Producto 1 de Oldschool Runescape",
         "imagen": "https://example.com/images/producto_1.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Protogemas",
+        "gameId": 2,
+        "precio": 5.00,
+        "stock": 30,
+        "descripcion": "Gashapon adictivo, huye",
+        "imagen": "https://example.com/images/producto_2.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Producto 1 de Genshin Impact",
+        "gameId": 2,
+        "precio": 75.50,
+        "stock": 20,
+        "descripcion": "Descripci\u00f3n de Producto 1 de Genshin Impact",
+        "imagen": "https://example.com/images/producto_3.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Producto 2 de Genshin Impact",
+        "gameId": 2,
+        "precio": 120.00,
+        "stock": 10,
+        "descripcion": "Descripci\u00f3n de Producto 2 de Genshin Impact",
+        "imagen": "https://example.com/images/producto_4.png"
     }
+    
 ]

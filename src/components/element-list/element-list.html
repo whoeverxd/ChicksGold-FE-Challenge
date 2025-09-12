@@ -1,5 +1,6 @@
 <template>
     <require from="../pagination/pagination"></require>
+        <require from="../product/product-list"></require>
     <div class="padded-box bg-primary">
         <div class="row-justified">
             <div>
@@ -24,6 +25,7 @@
                 </ul>
             </div>
         </div>
+        <product-list products.bind="items"></product-list>
         <pagination 
             page.bind="page" 
             page-size.bind="pageSize" 

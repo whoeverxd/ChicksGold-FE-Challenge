@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Oldschool Runescape",
+        "shortName": "OSRS",
+        "icono": "osrs.png",
+        "currencyPercentage": 15.21,
+        "slugName": "oldschool-runescape"
+    }, {
+        "id": 2,
+        "name": "Genshin Impact",
+        "shortName": "GI",
+        "icono": "gi.png",
+        "currencyPercentage": 10.00,
+        "slugName": "genshin-impact"
+    }, {
+        "id": 3,
+        "name": "World of Warcraft",
+        "shortName": "WoW",
+        "icono": "wow.png",
+        "currencyPercentage": 12.50,
+        "slugName": "world-of-warcraft"
+    },
+    {
+        "id": 4,
+        "name": "Fortnite",
+        "shortName": "FN",
+        "icono": "fn.png",
+        "currencyPercentage": 8.75,
+        "slugName": "fortnite"
+    }, {
+        "id": 5,
+        "name": "League of Legends",
+        "shortName": "LoL",
+        "icono": "lol.png",
+        "currencyPercentage": 9.30,
+        "slugName": "league-of-legends"
+    }
+]
