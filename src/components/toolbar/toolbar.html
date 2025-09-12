@@ -1,0 +1,54 @@
+<template>
+  <div class="toolbar-row">
+    <!-- Game Dropdown -->
+  <div class="toolbar-dropdown bg-translucent">
+      <button class="toolbar-btn" click.trigger="isGameOpen = !isGameOpen">
+        <img src="/src/assets/icons/game.svg" alt="Game Icon" class="toolbar-icon" />
+        <span class="toolbar-label">Select a game</span>
+        <span class="toolbar-selected">${selectedGame || 'All'}</span>
+        <svg class="toolbar-arrow${isGameOpen ? ' open' : ''}" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </button>
+      <ul if.bind="isGameOpen" class="toolbar-dropdown-list">
+        <li class="toolbar-dropdown-item" click.trigger="selectGame('All')">All</li>
+        <li repeat.for="game of games" class="toolbar-dropdown-item" click.trigger="selectGame(game)">${game}</li>
+      </ul>
+    </div>
+    <!-- Search -->
+    <div class="toolbar-search">
+      <input type="text" class="toolbar-search-input" value.bind="search" placeholder="Search" input.trigger="onSearch()" />
+      <img src="/src/assets/icons/search.svg" alt="Search Icon" class="toolbar-search-icon" />
+    </div>
+    <!-- Price Dropdown -->
+    <div class="toolbar-dropdown">
+      <button class="toolbar-btn" click.trigger="isPriceOpen = !isPriceOpen">
+        <img src="/src/assets/icons/price.svg" alt="Price Icon" class="toolbar-icon" />
+        <span class="toolbar-label">Price</span>
+        <span class="toolbar-selected">${selectedPrice || 'All'}</span>
+        <svg class="toolbar-arrow${isPriceOpen ? ' open' : ''}" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </button>
+      <ul if.bind="isPriceOpen" class="toolbar-dropdown-list">
+        <li class="toolbar-dropdown-item" click.trigger="selectPrice('All')">All</li>
+        <li repeat.for="price of priceOptions" class="toolbar-dropdown-item" click.trigger="selectPrice(price)">${price}</li>
+      </ul>
+    </div>
+    <!-- Item Type Dropdown -->
+    <div class="toolbar-dropdown">
+      <button class="toolbar-btn" click.trigger="isTypeOpen = !isTypeOpen">
+        <img src="/src/assets/icons/type.svg" alt="Type Icon" class="toolbar-icon" />
+        <span class="toolbar-label">Item Type</span>
+        <span class="toolbar-selected">${selectedType || 'All'}</span>
+        <svg class="toolbar-arrow${isTypeOpen ? ' open' : ''}" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="6 9 12 15 18 9" />
+        </svg>
+      </button>
+      <ul if.bind="isTypeOpen" class="toolbar-dropdown-list">
+        <li class="toolbar-dropdown-item" click.trigger="selectType('All')">All</li>
+        <li repeat.for="type of typeOptions" class="toolbar-dropdown-item" click.trigger="selectType(type)">${type}</li>
+      </ul>
+    </div>
+  </div>
+</template>

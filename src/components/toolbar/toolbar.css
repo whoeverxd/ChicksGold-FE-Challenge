@@ -1,0 +1,108 @@
+.bg-translucent {
+  background: rgba(255,255,255,0.12);
+  backdrop-filter: blur(2px);
+}
+.toolbar-row {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 24px;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+.toolbar-dropdown {
+  position: relative;
+  min-width: 180px;
+}
+.toolbar-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: #bfc8e6;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+.toolbar-btn:hover, .toolbar-btn:focus {
+  background: #35365a;
+}
+.toolbar-icon {
+  width: 20px;
+  height: 20px;
+}
+.toolbar-label {
+  font-size: 0.85rem;
+  color: #bfc8e6;
+  margin-bottom: 0;
+  line-height: 1.1;
+}
+.toolbar-selected {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin-top: 0;
+  line-height: 1.1;
+}
+.toolbar-arrow {
+  margin-left: auto;
+  align-self: center;
+  transition: transform 0.2s;
+}
+.toolbar-arrow.open {
+  transform: rotate(180deg);
+}
+.toolbar-dropdown-list {
+  position: absolute;
+  left: 0;
+  top: 110%;
+  background: #23243a;
+  border-radius: 8px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  min-width: 180px;
+  z-index: 100;
+  padding: 8px 0;
+  margin-top: 4px;
+  list-style: none;
+}
+.toolbar-dropdown-item {
+  color: #bfc8e6;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.15s, color 0.15s;
+}
+.toolbar-dropdown-item:hover {
+  background: #35365a;
+  color: #fff;
+}
+.toolbar-search {
+  position: relative;
+  flex: 1 1 300px;
+  max-width: 400px;
+}
+.toolbar-search-input {
+  width: 100%;
+  padding: 8px 36px 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background: #23243a;
+  color: #fff;
+  font-size: 1rem;
+}
+.toolbar-search-input:focus {
+  outline: 2px solid #5a6cf3;
+}
+.toolbar-search-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  opacity: 0.7;
+}
