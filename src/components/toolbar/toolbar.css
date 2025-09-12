@@ -11,7 +11,7 @@
   margin-bottom: 24px;
 }
 .toolbar-row-box{
-  padding: 20px;
+padding: 20px 0px;
   background: rgba(255,255,255,0.12);
   backdrop-filter: blur(2px);
 }
@@ -32,6 +32,7 @@
   padding: 8px 16px;
   border-radius: 8px;
   transition: background 0.2s;
+  width: 100%;
 }
 .toolbar-btn:hover, .toolbar-btn:focus {
   background: #35365a;
@@ -69,7 +70,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 24px rgba(0,0,0,0.18);
   min-width: 180px;
-  z-index: 100;
+  z-index: 99999;
   padding: 8px 0;
   margin-top: 4px;
   list-style: none;

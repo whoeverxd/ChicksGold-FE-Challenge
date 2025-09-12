@@ -38,6 +38,34 @@
         "descripcion": "Descripci\u00f3n de Producto 2 de Genshin Impact",
         "imagen": "images/products/lol-icon.webp",
         "type": "account"
+    },{
+        "id": 5,
+        "nombre": "Cuenta Oro 70 - EU",
+        "gameId": 5,
+        "precio": 150.00,
+        "stock": 8,
+        "descripcion": "Descripci\u00f3n de Producto 3 de Genshin Impact",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
+    },
+    {
+        "id": 6,
+        "nombre": "Subir cuenta a challenger",
+        "gameId": 5,
+        "stock": 5,
+        "descripcion": "este producto no tiene precio a proposito",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "services"
+    },
+    {
+        "id": 7,
+        "nombre": "Hextech Chest",
+        "gameId": 6,
+        "precio": 35.00,
+        "stock": 12,
+        "descripcion": "Este producto tiene precio, pero el juego no tiene descuento",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
     }
     
 ]

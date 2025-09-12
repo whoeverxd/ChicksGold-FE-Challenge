@@ -34,7 +34,12 @@
  
 }
 
-
+.grid-container {
+    box-sizing: content-box;
+    margin: 0 auto;
+    max-width: 1560px;
+    padding-inline: 20px;
+}
 
 /* Handcrafted main categories navigation */
 .main-categories-list {
@@ -90,10 +95,10 @@
     background: #23243a;
     border-radius: 0 0 8px 8px;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
-    z-index: 100;
     padding: 16px 20px;
     margin-top: 2px;
     animation: fadeInDropdown 0.18s;
+        /* z-index removed */
 }
 
 @keyframes fadeInDropdown {
@@ -245,9 +250,9 @@
     border-radius: 0;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
     min-width: 120px;
-    z-index: 100;
     padding: 8px 0;
     margin-top: 4px;
+        /* z-index removed */
 }
 
 .currency-popup ul {
@@ -354,10 +359,10 @@
     font-weight: bold;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
     border: 2px solid #23243a;
-    z-index: 1;
     padding: 0 4px;
     line-height: 1;
     pointer-events: none;
+        /* z-index removed */
 }
 
 @media (max-width: 900px) {

@@ -21,19 +21,37 @@ export class Home {
 	}
 
 	async attached() {
-		const response = await fetch('/src/data/productos.json');
-		this.products = await response.json();
-		this.filteredProducts = this.products;
-		// Dynamically set typeOptions from products
-		this.typeOptions = Array.from(new Set(this.products.map(p => p.type))).filter(Boolean);
+		// Load games first
 		try {
 			const gamesResponse = await fetch('/src/data/juegos.json');
 			this.games = await gamesResponse.json();
 			console.log('Games loaded:', this.games);
 		} catch (e) {
 			console.error('Error loading games:', e);
+			this.games = [];
 		}
-
+		// Load products and add gameIcon
+		const response = await fetch('/src/data/productos.json');
+		const rawProducts = await response.json();
+		this.products = rawProducts.map(product => {
+			const game = this.games.find(g => g.id === product.gameId);
+			let precioOriginal = null;
+			let precio = product.precio;
+			if (game && game.currencyPercentage && game.currencyPercentage > 0) {
+				precioOriginal = product.precio;
+				precio = +(product.precio * (1 - game.currencyPercentage / 100)).toFixed(2);
+			}
+			return {
+				...product,
+				gameIcon: game ? game.icono : '',
+				precioOriginal,
+				precio
+			};
+		});
+		this.filteredProducts = this.products;
+		// Dynamically set typeOptions from products
+		this.typeOptions = Array.from(new Set(this.products.map(p => p.type))).filter(Boolean);
+	
 
 		console.log(this.products);
 	}

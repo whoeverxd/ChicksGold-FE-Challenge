@@ -32,7 +32,7 @@ Run unit tests in watch mode.
     - el buscador de texto, busca en el titulo y la descripcion, se puede configurar para revisar el slug y demas info if needed
     
 
-    
+## se añade un servicio para el carrito de productos del cliente
 
 
 

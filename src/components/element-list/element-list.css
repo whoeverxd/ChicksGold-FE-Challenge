@@ -11,7 +11,9 @@
     padding: 8px 16px;
     border-radius: 8px;
     transition: background 0.2s;
-    position: relative;
+    
+    z-index: 0 !important;
+
 }
 .sort-icon-vertical {
     width: 30px;
@@ -50,11 +52,10 @@
 .sort-dropdown-wrapper {
     position: relative;
     display: inline-block;
+    z-index: 0 !important;
 }
 
-.sort-dropdown-wrapper {
-    background-color: var(--bg-secondary);
-}
+
 
 .sort-dropdown-btn {
     display: flex;
@@ -111,7 +112,6 @@
     border-radius: 8px;
     box-shadow: 0 4px 24px rgba(0, 0, 0, 0.18);
     min-width: 180px;
-    z-index: 100;
     padding: 8px 0;
     margin-top: 4px;
     list-style: none;
@@ -135,10 +135,12 @@
     margin: 0 auto;
 }
 
+
 .grid {
     display: grid;
     gap: 16px;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-template-columns: repeat(6, 1fr);
+    /* z-index removed to avoid stacking context issues */
 }
 
 .card {
@@ -149,6 +151,8 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+    position: relative; /* Only if needed for layout */
+    /* z-index removed to avoid stacking context issues */
 }
 
 .card-image {
@@ -157,7 +161,7 @@
     object-fit: cover;
     display: block;
 }
-
+    /* removed duplicate, handled by main .grid and media queries */
 .card-body {
     padding: 12px;
     display: flex;
@@ -171,6 +175,27 @@
 }
 
 .card-price {
+
+@media (max-width: 1400px) {
+    .grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+@media (max-width: 1200px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
     font-weight: 700;
     margin-top: auto;
 }
@@ -191,14 +216,3 @@
     padding: 2rem 0;
 }
 
-@media (max-width: 900px) {
-    .grid {
-        grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-    }
-}
-
-@media (max-width: 480px) {
-    .grid {
-        grid-template-columns: 1fr;
-    }
-}

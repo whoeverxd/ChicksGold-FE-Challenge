@@ -1,6 +1,6 @@
 .product-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 24px;
   justify-items: stretch;
   padding-left: 0;
@@ -11,3 +11,26 @@
   margin-top: 40px  ;
 }
 
+
+.product-name-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 12px;
+}
+.product-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.product-game-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: transparent;
+}

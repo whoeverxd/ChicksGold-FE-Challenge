@@ -3,21 +3,21 @@
         "id": 1,
         "name": "Oldschool Runescape",
         "shortName": "OSRS",
-        "icono": "osrs.png",
+        "icono": "src/assets/gameicon/osrs.png",
         "currencyPercentage": 15.21,
         "slugName": "oldschool-runescape"
     }, {
         "id": 2,
         "name": "Genshin Impact",
         "shortName": "GI",
-        "icono": "gi.png",
+        "icono": "src/assets/gameicon/gi.png",
         "currencyPercentage": 10.00,
         "slugName": "genshin-impact"
     }, {
         "id": 3,
         "name": "World of Warcraft",
         "shortName": "WoW",
-        "icono": "wow.png",
+        "icono": "src/assets/gameicon/wow.png",
         "currencyPercentage": 12.50,
         "slugName": "world-of-warcraft"
     },
@@ -25,15 +25,23 @@
         "id": 4,
         "name": "Fortnite",
         "shortName": "FN",
-        "icono": "fn.png",
+        "icono": "src/assets/gameicon/fn.png",
         "currencyPercentage": 8.75,
         "slugName": "fortnite"
     }, {
         "id": 5,
         "name": "League of Legends",
         "shortName": "LoL",
-        "icono": "lol.png",
+        "icono": "src/assets/gameicon/lol.png",
         "currencyPercentage": 9.30,
         "slugName": "league-of-legends"
+    },
+    {
+        "id": 6,
+        "name": "Teamfight Tactics",
+        "shortName": "TFT",
+        "icono": "src/assets/gameicon/tft.png",
+        "currencyPercentage": 0.00,
+        "slugName": "teamfight-tactics"
     }
 ]
