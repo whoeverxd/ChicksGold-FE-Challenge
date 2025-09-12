@@ -1,0 +1,6 @@
+<template>
+    <require from="./product-card"></require>
+  <div class="product-list">
+    <product-card repeat.for="product of products" product.bind="product"></product-card>
+  </div>
+</template>

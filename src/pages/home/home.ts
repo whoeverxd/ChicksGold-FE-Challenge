@@ -1,14 +1,13 @@
 import { customElement } from 'aurelia';
 
 @customElement('home')
+
 export class Home {
 	page = 1;
 	pageSize = 10;
 	products = [];
 	filteredProducts = [];
 	sort = 'Featured';
-
-	// Toolbar filter state
 	games = [];
 	priceOptions = ['< $50', '$50 - $100', '$100+'];
 	typeOptions = ['Gold', 'Item', 'Account'];
@@ -21,14 +20,21 @@ export class Home {
 		console.log('Home component loaded');
 	}
 
-	async attached() {
-		const response = await fetch('/src/data/productos.json');
-		this.products = await response.json();
-		this.filteredProducts = this.products;
-		// Populate games from products
-		this.games = Array.from(new Set(this.products.map(p => p.game?.name))).filter(Boolean);
-		console.log(this.products);
-	}
+		async attached() {
+			const response = await fetch('/src/data/productos.json');
+			this.products = await response.json();
+			this.filteredProducts = this.products;
+			try {
+				const gamesResponse = await fetch('/src/data/juegos.json');
+				this.games = await gamesResponse.json();
+				console.log('Games loaded:', this.games);
+			} catch (e) {
+				console.error('Error loading games:', e);
+			}
+			this.games = Array.from(new Set(this.products.map(p => p.game?.name))).filter(Boolean);
+
+			console.log(this.products);
+		}
 
 	get pagedItems() {
 		const start = (this.page - 1) * this.pageSize;
@@ -82,4 +88,7 @@ export class Home {
 		}
 		// else keep as is (Featured)
 	}
+	onPageChange = (newPage: number) => {
+		this.page = newPage;
+	}  
 }

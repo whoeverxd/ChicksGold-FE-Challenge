@@ -395,7 +395,8 @@
 :root {
     --color-bg-primary: #f0f0f0;
     --color-bg-secondary: #ffffff;
-    --color-primary: #007bff;
+    --color-primary: #6366F1;
+    --color-primary-dark: #2C2C3A;
     --color-secondary: #303141;
     --color-text: #333333;
 
@@ -403,6 +404,7 @@
     --bg-primary: #2B2C3B;
     --bg-secondary: #303141;
     --turquise: #39E29D;
+
 }
 
 

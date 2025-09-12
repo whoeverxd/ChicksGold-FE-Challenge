@@ -1,6 +1,8 @@
 <template>
   <require from="../../components/element-list/element-list"></require>
   <require from="../../components/toolbar/toolbar"></require>
+
+  <require from="../../components/pagination/pagination"></require>
   <section class="home">
     <div id="epic-background">
       <div class="main-content-padding full-width ">
@@ -23,7 +25,8 @@
             page.bind="page" 
             page-size.bind="pageSize"
             total.bind="filteredProducts.length"
-            sort-change.bind="onSortChange">
+            sort-change.bind="onSortChange"
+            page-change.bind="onPageChange">
           </element-list>
 
         </div>

@@ -8,6 +8,7 @@ export class ElementList {
     @bindable pageSize = 10;
     @bindable total = 0;
     @bindable sortChange: (sort: string) => void;
+    @bindable pageChange: (page: number) => void;
 
     isSortOpen = false;
     selectedSort = 'Featured';
@@ -18,6 +19,12 @@ export class ElementList {
         this.isSortOpen = false;
         if (this.sortChange) {
             this.sortChange(option);
+        }
+    }
+
+    onPageChange = (page: number) => {
+        if (this.pageChange) {
+            this.pageChange(page);
         }
     }
 }

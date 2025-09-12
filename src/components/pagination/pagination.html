@@ -1,0 +1,15 @@
+<template>
+  <nav class="pagination">
+    <button class="pagination-btn" disabled.bind="page === 1" click.trigger="changePage(page - 1)">
+      &#60;
+    </button>
+    <button repeat.for="p of pages"
+            class.bind="p === page ? 'pagination-page active' : 'pagination-page'"
+            click.trigger="changePage(p)">
+      ${p}
+    </button>
+    <button class="pagination-btn" disabled.bind="page === totalPages" click.trigger="changePage(page + 1)">
+      &#62;
+    </button>
+  </nav>
+</template>
