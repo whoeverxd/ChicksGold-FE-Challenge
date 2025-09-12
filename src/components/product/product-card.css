@@ -1,3 +1,12 @@
+.qty-input::-webkit-outer-spin-button,
+.qty-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.qty-input[type=number] {
+  appearance: textfield;
+  -moz-appearance: textfield;
+}
 .product-card-footer {
   display: flex;
   gap: 12px;
@@ -104,16 +113,54 @@
   font-weight: 500;
 }
 
-.qty-box {
+
+.qty-box-horizontal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #373e55;
+  border-radius: 12px;
+  width: 80px;
+  height: 55px;
+  justify-content: center;
+  gap: 4px;
+  padding: 0 6px;
+}
+
+.qty-input {
+  width: 32px;
+  height: 28px;
+  border: none;
+  border-radius: 6px;
+  background: #373e55;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: center;
+  outline: none;
+  margin-right: 4px;
+}
+
+.qty-arrows {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background: #35365a;
-  border-radius: 12px;
-  width: 64px;
-  height: 64px;
-  justify-content: center;
   gap: 2px;
+}
+
+.qty-arrow-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.1rem;
+  width: 22px;
+  height: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.15s;
+  padding: 0;
+}
+.qty-arrow-btn:hover {
+  background: #44456a;
 }
 
 .qty-btn {
@@ -225,17 +272,18 @@
 }
 
 .add-btn {
-  background: #6366f1;
+  background: #5a6cf3;
   color: #fff;
   border: none;
-  border-radius: 4px;
-  padding: 16px 32px;
-  font-size: 1.2rem;
-  font-weight: 600;
+  border-radius: 8px;
+  padding: 12px 12px;
+  font-size: 1rem;
+  font-weight: 700;
   cursor: pointer;
   display: flex;
   align-items: center;
-  gap: 16px;
+  justify-content: space-between;
+  gap: 12px;
   transition: background 0.2s;
 }
 
@@ -244,11 +292,20 @@
 }
 
 .add-cart-icon {
-  font-size: 1.5rem;
-  margin-left: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+
+  border-radius: 8px;
+  background-color: #454da8;
+}
+.add-cart-icon svg {
+  display: block;
 }
 
-.card-header-left {}
+/* removed empty ruleset .card-header-left */
 
 img.product-img {
   width: 100%;
@@ -265,6 +322,7 @@ img.product-img {
 .product-description {
 
   display: -webkit-box;
+  line-clamp: 2;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   font-size: 14px;

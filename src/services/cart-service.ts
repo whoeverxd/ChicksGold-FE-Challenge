@@ -1,7 +1,10 @@
 import { singleton, IEventAggregator } from 'aurelia';
 
 export interface CartItem {
-  id: string;
+  id: number;
+  name?: string;
+  price?: number;
+  image?: string;
   qty?: number;
 }
 
@@ -31,7 +34,7 @@ export class CartService {
     this.notify();
   }
 
-  remove(id: string, qty = 1): void {
+  remove(id: number, qty = 1): void {
     const idx = this.items.findIndex(x => x.id === id);
     if (idx > -1) {
       const it = this.items[idx];

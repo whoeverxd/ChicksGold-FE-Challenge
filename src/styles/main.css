@@ -98,7 +98,7 @@
     padding: 16px 20px;
     margin-top: 2px;
     animation: fadeInDropdown 0.18s;
-        /* z-index removed */
+    z-index: 2000;
 }
 
 @keyframes fadeInDropdown {
@@ -252,7 +252,7 @@
     min-width: 120px;
     padding: 8px 0;
     margin-top: 4px;
-        /* z-index removed */
+    z-index: 2000;
 }
 
 .currency-popup ul {
