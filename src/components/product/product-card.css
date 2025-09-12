@@ -10,7 +10,7 @@
   flex-direction: column;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   padding: 24px 24px 16px 24px;
-  position: relative;
+
 }
 .product-card-header {
   display: flex;
@@ -165,4 +165,8 @@
 }
 .card-header-left {
 
+}
+img.product-img
+ {
+    width: 100%;
 }

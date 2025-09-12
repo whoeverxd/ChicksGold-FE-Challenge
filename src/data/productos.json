@@ -1,12 +1,13 @@
 [
     {
         "id": 1,
-        "nombre": "Producto 1 de OSRS",
-        "gameId": 1,
-        "precio": 96.93,
+        "nombre": "RP - 1500",
+        "gameId": 5,
+        "precio": 20.00,
         "stock": 16,
-        "descripcion": "Descripci\u00f3n de Producto 1 de Oldschool Runescape",
-        "imagen": "https://example.com/images/producto_1.png"
+        "descripcion": "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "imagen": "images/products/rp.png",
+        "type": "currency"
     },
     {
         "id": 2,
@@ -15,25 +16,28 @@
         "precio": 5.00,
         "stock": 30,
         "descripcion": "Gashapon adictivo, huye",
-        "imagen": "https://example.com/images/producto_2.png"
+        "imagen": "images/products/Item_Primogem.webp",
+        "type": "currency"
     },
     {
         "id": 3,
-        "nombre": "Producto 1 de Genshin Impact",
+        "nombre": "Cuenta AR 60",
         "gameId": 2,
         "precio": 75.50,
         "stock": 20,
-        "descripcion": "Descripci\u00f3n de Producto 1 de Genshin Impact",
-        "imagen": "https://example.com/images/producto_3.png"
+        "descripcion": "Tiene a Furina, Kazuha, Yoimiya y Ayaka. Buenas armas y artefactos.",
+        "imagen": "images/products/paimon.jpeg",
+        "type": "account"
     },
     {
         "id": 4,
-        "nombre": "Producto 2 de Genshin Impact",
-        "gameId": 2,
+        "nombre": "Cuenta Platino - LAN",
+        "gameId": 5,
         "precio": 120.00,
         "stock": 10,
         "descripcion": "Descripci\u00f3n de Producto 2 de Genshin Impact",
-        "imagen": "https://example.com/images/producto_4.png"
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
     }
     
 ]

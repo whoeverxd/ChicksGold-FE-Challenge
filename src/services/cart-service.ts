@@ -1,35 +1,53 @@
-import { singleton, observable } from 'aurelia';
+import { singleton, IEventAggregator } from 'aurelia';
 
 export interface CartItem {
   id: string;
-  name: string;
-  price: number;
-  qty: number;
-  image?: string;
+  qty?: number;
 }
 
 @singleton()
 export class CartService {
-  @observable() items: CartItem[] = [];
+  static inject = [IEventAggregator];
+  private items: CartItem[] = [];
 
-  get count() {
-    return this.items.reduce((sum, item) => sum + item.qty, 0);
+  constructor(private ea: IEventAggregator) {}
+
+  get count(): number {
+    // Suma todas las cantidades de los items
+    return this.items.reduce((total, item) => total + (item.qty ?? 1), 0);
   }
 
-  add(item: CartItem, qty: number = 1) {
-    const found = this.items.find(i => i.id === item.id);
-    if (found) {
-      found.qty += qty;
+  getItems(): CartItem[] {
+    return this.items;
+  }
+
+  add(item: CartItem, qty = 1): void {
+    const existing = this.items.find(x => x.id === item.id);
+    if (existing) {
+      existing.qty = (existing.qty ?? 1) + qty;
     } else {
       this.items.push({ ...item, qty });
     }
+    this.notify();
   }
 
-  clear() {
+  remove(id: string, qty = 1): void {
+    const idx = this.items.findIndex(x => x.id === id);
+    if (idx > -1) {
+      const it = this.items[idx];
+      const newQty = (it.qty ?? 1) - qty;
+      if (newQty > 0) it.qty = newQty;
+      else this.items.splice(idx, 1);
+      this.notify();
+    }
+  }
+
+  clear(): void {
     this.items = [];
+    this.notify();
   }
 
-  getItems() {
-    return this.items;
+  private notify(): void {
+    this.ea.publish('cart:changed', { count: this.count, items: this.items });
   }
 }

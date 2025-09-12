@@ -19,6 +19,7 @@ export class Toolbar {
   selectGame(game: string) {
     this.selectedGame = game;
     this.isGameOpen = false;
+    console.log('Selected game:', game);
     this.emitChange();
   }
   selectPrice(price: string) {

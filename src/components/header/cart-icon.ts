@@ -3,10 +3,9 @@ import { customElement, bindable } from 'aurelia';
 import template from './cart-icon.html';
 import './cart-icon.css';
 
-@customElement({ name: 'cart-icon', template })
+@customElement('cart-icon')
 export class CartIcon {
-    @bindable items: number = 0;
-
+    @bindable count = 0;
     onCartClick() {
         window.location.href = '/cart';
     }

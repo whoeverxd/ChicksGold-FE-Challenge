@@ -5,23 +5,25 @@
                 <button class="hamburger-btn" aria-label="Open menu">
                     <img src="/src/assets/icons/Hamburger_icon.png" alt="Menu" class="hamburger-icon" />
                 </button>
-                <img src="/src/assets/logo/chicks-logo-large.svg" alt="Logo" class="header-logo" click.trigger="onLogoClick()" style="cursor:pointer;" />
+                <img src="/src/assets/logo/chicks-logo-large.svg" alt="Logo" class="header-logo"
+                    click.trigger="onLogoClick()" style="cursor:pointer;" />
             </div>
             <category-navigation></category-navigation>
             <div class="header-spacer"></div>
             <div class="header-right">
-                <cart-icon items.bind="cartCount"></cart-icon>
+                <cart-icon count.bind="cartCount"></cart-icon>
                 <currency-selector></currency-selector>
                 <button class="header-signin sign-in-button">
                     SIGN IN
                     <span class="user-icon" aria-hidden="true">
-                        <svg class="user-icon-outline" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#23243a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="8" r="4"/>
-                            <path d="M4 20c0-2.5 3.5-4 8-4s8 1.5 8 4"/>
+                        <svg class="user-icon-outline" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                            stroke="#23243a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="8" r="4" />
+                            <path d="M4 20c0-2.5 3.5-4 8-4s8 1.5 8 4" />
                         </svg>
                         <svg class="user-icon-filled" width="22" height="22" viewBox="0 0 24 24" fill="#23243a">
-                            <circle cx="12" cy="8" r="4"/>
-                            <path d="M4 20c0-2.5 3.5-4 8-4s8 1.5 8 4"/>
+                            <circle cx="12" cy="8" r="4" />
+                            <path d="M4 20c0-2.5 3.5-4 8-4s8 1.5 8 4" />
                         </svg>
                     </span>
                 </button>
