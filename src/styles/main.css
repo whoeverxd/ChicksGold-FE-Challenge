@@ -320,7 +320,7 @@
     background:
         linear-gradient(rgba(20, 25, 40, 0.95),
             rgba(20, 25, 40, 0.95)),
-        url('src/assets/background.jpg');
+        url('../assets/background.jpg');
     /* Reemplaza con tu imagen */
 
     background-size: cover;
@@ -344,6 +344,13 @@
 
 .bg-secondary {
     background-color: var(--bg-secondary);
+}
+
+/* Tablet and smaller: remove top padding on main content wrapper */
+@media (max-width: 768px) {
+    .main-content-padding {
+        padding-top: 0;
+    }
 }
 @media (max-width: 600px) {
     .padded-box {

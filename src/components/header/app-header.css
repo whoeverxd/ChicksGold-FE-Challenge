@@ -256,6 +256,65 @@
     width: 28px;
     height: 28px;
 }
+
+/* Compact the header between tablet and small desktop to avoid overflow */
+@media (min-width: 900px) and (max-width: 1200px) {
+    .header-content {
+        padding: 0 1rem; /* reduce horizontal padding */
+        min-width: 0; /* allow children to shrink */
+    }
+
+    .header-left {
+        padding: 0 16px 0 16px; /* narrower left block */
+        border-right-width: 1px;
+    }
+
+    .header-logo {
+        height: 28px; /* slightly smaller logo */
+        margin-right: 10px;
+    }
+
+    .header-center {
+        gap: 1rem; /* tighter nav spacing */
+        margin-left: 1rem; /* less left margin */
+    }
+
+    .header-link {
+        font-size: 0.95rem; /* slightly smaller text */
+    }
+
+    /* Make right section more compact */
+    .header-right {
+        gap: 0.5rem;
+        min-width: 0; /* enable shrinking */
+    }
+
+    /* Currency/button compaction */
+    .currency-btn {
+        gap: 0.35rem;
+        font-size: 1rem;
+        padding: 0 8px;
+        height: 40px;
+    }
+
+    /* Hide the "Cart" label, keep icon to save space */
+    .cart-label {
+        display: none;
+    }
+
+    .cart-icon-btn {
+        padding: 0 2px;
+    }
+
+    /* Compress Sign In */
+    .header-signin {
+        height: 40px;
+        padding: 10px 12px;
+        font-size: 14px;
+        width: auto; /* allow shrink */
+        min-width: 0;
+    }
+}
 @media (max-width: 900px) {
     .header-left {
         border-right: none;
