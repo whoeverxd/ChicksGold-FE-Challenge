@@ -567,5 +567,500 @@
         "descripcion": "Aspecto para la arena de TFT.",
         "imagen": "images/products/lol-icon.webp",
         "type": "account"
+    },
+    {
+        "id": 59,
+        "nombre": "MR Coins 1000",
+        "gameId": 7,
+        "precio": 8.99,
+        "precioOriginal": 10.99,
+        "stock": 60,
+        "descripcion": "Paquete de 1000 monedas para Marvel Rivals.",
+        "imagen": "images/products/storm.png",
+        "type": "currency"
+    },
+    {
+        "id": 60,
+        "nombre": "MR Skin Bundle",
+        "gameId": 7,
+        "precio": 6.49,
+        "stock": 40,
+        "descripcion": "Selección de aspectos para héroes de Marvel Rivals.",
+        "imagen": "images/products/banner.png",
+        "type": "account"
+    },
+    {
+        "id": 61,
+        "nombre": "MR Boost – 3 partidas",
+        "gameId": 7,
+        "stock": 12,
+        "descripcion": "Acompañamiento en 3 partidas clasificadas.",
+        "imagen": "images/products/venom.png",
+        "type": "services"
+    },
+    {
+        "id": 62,
+        "nombre": "OSRS Dragon Scimitar",
+        "gameId": 1,
+        "precio": 3.49,
+        "stock": 50,
+        "descripcion": "Arma clásica para entrenamiento eficiente.",
+        "imagen": "images/products/torva.png",
+        "type": "currency"
+    },
+    {
+        "id": 63,
+        "nombre": "GI Fragile Resin x5",
+        "gameId": 2,
+        "precio": 9.99,
+        "stock": 30,
+        "descripcion": "Recupera energía para farmear dominios.",
+        "imagen": "images/products/Item_Primogem.webp",
+        "type": "currency"
+    },
+    {
+        "id": 64,
+        "nombre": "LoL Ward Skin Pack",
+        "gameId": 5,
+        "precio": 2.99,
+        "stock": 70,
+        "descripcion": "Paquete de aspectos para centinelas.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
+    },
+    {
+        "id": 65,
+        "nombre": "V-Bucks 2800",
+        "gameId": 4,
+        "precio": 22.99,
+        "precioOriginal": 24.99,
+        "stock": 35,
+        "descripcion": "Paquete mediano de V-Bucks para cosméticos.",
+        "imagen": "images/products/rp.png",
+        "type": "currency"
+    },
+    {
+        "id": 66,
+        "nombre": "WoW Raid HC Carry",
+        "gameId": 3,
+        "stock": 5,
+        "descripcion": "Limpieza de banda en heroico con loot asignado.",
+        "imagen": "images/products/torva.png",
+        "type": "services"
+    },
+    {
+        "id": 67,
+        "nombre": "TFT Star Shard Pack",
+        "gameId": 6,
+        "precio": 4.49,
+        "stock": 40,
+        "descripcion": "Fragmentos para mejorar pequeñas leyendas.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
+    },
+    {
+        "id": 68,
+        "nombre": "MR Coins 2500",
+        "gameId": 7,
+        "precio": 19.99,
+        "precioOriginal": 22.99,
+        "stock": 28,
+        "descripcion": "Paquete de 2500 monedas de Marvel Rivals.",
+        "imagen": "images/products/strange.png",
+        "type": "currency"
+    },
+    {
+        "id": 69,
+        "nombre": "MR Cuenta con héroes",
+        "gameId": 7,
+        "precio": 29.99,
+        "stock": 9,
+        "descripcion": "Cuenta inicial con varios héroes desbloqueados.",
+        "imagen": "images/products/thor.png",
+        "type": "account"
+    },
+    {
+        "id": 70,
+        "nombre": "MR Coaching 1h",
+        "gameId": 7,
+        "stock": 10,
+        "descripcion": "Sesión de coaching de una hora para roles clave.",
+        "imagen": "images/products/storm.png",
+        "type": "services"
+    },
+    {
+        "id": 71,
+        "nombre": "OSRS Pet Service",
+        "gameId": 1,
+        "stock": 3,
+        "descripcion": "Asistencia para granjeo de mascota rara.",
+        "imagen": "images/products/torva.png",
+        "type": "services"
+    },
+    {
+        "id": 72,
+        "nombre": "WoW Time 30 días",
+        "gameId": 3,
+        "precio": 14.99,
+        "stock": 20,
+        "descripcion": "Tiempo de juego por 30 días.",
+        "imagen": "images/products/torva.png",
+        "type": "account"
+    },
+    {
+        "id": 73,
+        "nombre": "GI Lote de Artefactos",
+        "gameId": 2,
+        "precio": 7.49,
+        "stock": 25,
+        "descripcion": "Selección de artefactos para reforjar.",
+        "imagen": "images/products/Item_Primogem.webp",
+        "type": "account"
+    },
+    {
+        "id": 74,
+        "nombre": "LoL Esencia Naranja 2000",
+        "gameId": 5,
+        "precio": 4.29,
+        "stock": 42,
+        "descripcion": "Esencia naranja para fabricar aspectos.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "currency"
+    },
+    {
+        "id": 75,
+        "nombre": "FN Pack Planador",
+        "gameId": 4,
+        "precio": 5.99,
+        "stock": 26,
+        "descripcion": "Conjunto de planeadores temáticos.",
+        "imagen": "images/products/rp.png",
+        "type": "account"
+    },
+    {
+        "id": 76,
+        "nombre": "TFT Pase+",
+        "gameId": 6,
+        "precio": 9.49,
+        "stock": 18,
+        "descripcion": "Mejora del pase para recompensas adicionales.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
+    },
+    {
+        "id": 77,
+        "nombre": "MR Coins 5000",
+        "gameId": 7,
+        "precio": 36.99,
+        "precioOriginal": 41.99,
+        "stock": 15,
+        "descripcion": "Paquete de 5000 monedas con descuento.",
+        "imagen": "images/products/banner.png",
+        "type": "currency"
+    },
+    {
+        "id": 78,
+        "nombre": "MR Skin Épica",
+        "gameId": 7,
+        "precio": 11.99,
+        "stock": 20,
+        "descripcion": "Aspecto épico para un héroe seleccionado.",
+        "imagen": "images/products/venom.png",
+        "type": "account"
+    },
+    {
+        "id": 79,
+        "nombre": "MR Servicio Ranking",
+        "gameId": 7,
+        "stock": 7,
+        "descripcion": "Subida de rango con tiempos pactados.",
+        "imagen": "images/products/strange.png",
+        "type": "services"
+    },
+    {
+        "id": 80,
+        "nombre": "OSRS Slayer Points Pack",
+        "gameId": 1,
+        "precio": 5.49,
+        "stock": 22,
+        "descripcion": "Paquete de puntos de Slayer para desbloqueos.",
+        "imagen": "images/products/torva.png",
+        "type": "currency"
+    },
+    {
+        "id": 81,
+        "nombre": "WoW Reputación Exalted",
+        "gameId": 3,
+        "stock": 6,
+        "descripcion": "Servicio para alcanzar exaltado con una facción.",
+        "imagen": "images/products/torva.png",
+        "type": "services"
+    },
+    {
+        "id": 82,
+        "nombre": "GI Lote Mora 1M",
+        "gameId": 2,
+        "precio": 2.99,
+        "stock": 90,
+        "descripcion": "Un millón de Mora para mejoras y talentos.",
+        "imagen": "images/products/Item_Primogem.webp",
+        "type": "currency"
+    },
+    {
+        "id": 83,
+        "nombre": "LoL Cuenta Diamante",
+        "gameId": 5,
+        "precio": 199.00,
+        "stock": 2,
+        "descripcion": "Cuenta en elo Diamante con buen MMR.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
+    },
+    {
+        "id": 84,
+        "nombre": "FN Emotes Deluxe",
+        "gameId": 4,
+        "precio": 12.49,
+        "stock": 16,
+        "descripcion": "Selección premium de gestos.",
+        "imagen": "images/products/rp.png",
+        "type": "account"
+    },
+    {
+        "id": 85,
+        "nombre": "TFT Arena Boom",
+        "gameId": 6,
+        "precio": 6.99,
+        "stock": 27,
+        "descripcion": "Efecto visual para remates en arena.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
+    },
+    {
+        "id": 86,
+        "nombre": "MR Emote Pack",
+        "gameId": 7,
+        "precio": 4.79,
+        "stock": 30,
+        "descripcion": "Emotes para expresarte en partida.",
+        "imagen": "images/products/thor.png",
+        "type": "account"
+    },
+    {
+        "id": 87,
+        "nombre": "MR Coins 800",
+        "gameId": 7,
+        "precio": 6.99,
+        "stock": 70,
+        "descripcion": "Paquete de entrada para compras pequeñas.",
+        "imagen": "images/products/storm.png",
+        "type": "currency"
+    },
+    {
+        "id": 88,
+        "nombre": "MR Pase de Temporada",
+        "gameId": 7,
+        "precio": 9.99,
+        "stock": 25,
+        "descripcion": "Pase con desafíos y recompensas exclusivas.",
+        "imagen": "images/products/banner.png",
+        "type": "account"
+    },
+    {
+        "id": 89,
+        "nombre": "MR Bundle de Héroes",
+        "gameId": 7,
+        "precio": 24.99,
+        "stock": 10,
+        "descripcion": "Lote de héroes desbloqueados para empezar.",
+        "imagen": "images/products/venom.png",
+        "type": "account"
+    },
+    {
+        "id": 90,
+        "nombre": "MR Recolor Skin",
+        "gameId": 7,
+        "precio": 3.49,
+        "stock": 40,
+        "descripcion": "Variación de color para aspecto existente.",
+        "imagen": "images/products/strange.png",
+        "type": "account"
+    },
+    {
+        "id": 91,
+        "nombre": "MR Entrenamiento Avanzado",
+        "gameId": 7,
+        "stock": 8,
+        "descripcion": "Entrenamiento intensivo para roles específicos.",
+        "imagen": "images/products/thor.png",
+        "type": "services"
+    },
+    {
+        "id": 92,
+        "nombre": "OSRS Barrows Set",
+        "gameId": 1,
+        "precio": 19.99,
+        "stock": 5,
+        "descripcion": "Conjunto de Barrows completo.",
+        "imagen": "images/products/torva.png",
+        "type": "account"
+    },
+    {
+        "id": 93,
+        "nombre": "WoW Transfiguración Pack",
+        "gameId": 3,
+        "precio": 8.99,
+        "stock": 14,
+        "descripcion": "Paquete de apariencias para transfigurar.",
+        "imagen": "images/products/torva.png",
+        "type": "account"
+    },
+    {
+        "id": 94,
+        "nombre": "GI Cuenta AR 20",
+        "gameId": 2,
+        "precio": 12.99,
+        "stock": 13,
+        "descripcion": "Cuenta con progreso inicial y recursos.",
+        "imagen": "images/products/paimon.jpeg",
+        "type": "account"
+    },
+    {
+        "id": 95,
+        "nombre": "LoL Íconos de Invocador",
+        "gameId": 5,
+        "precio": 2.49,
+        "stock": 60,
+        "descripcion": "Paquete de íconos temáticos.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
+    },
+    {
+        "id": 96,
+        "nombre": "FN Paquete de Backblings",
+        "gameId": 4,
+        "precio": 7.99,
+        "stock": 18,
+        "descripcion": "Accesorios para la espalda variados.",
+        "imagen": "images/products/rp.png",
+        "type": "account"
+    },
+    {
+        "id": 97,
+        "nombre": "TFT Re-roll Tokens",
+        "gameId": 6,
+        "precio": 3.99,
+        "stock": 45,
+        "descripcion": "Fichas para reroll de tienda.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "currency"
+    },
+    {
+        "id": 98,
+        "nombre": "MR Coins 12000",
+        "gameId": 7,
+        "precio": 74.99,
+        "precioOriginal": 84.99,
+        "stock": 6,
+        "descripcion": "Gran paquete de monedas con ahorro.",
+        "imagen": "images/products/storm.png",
+        "type": "currency"
+    },
+    {
+        "id": 99,
+        "nombre": "MR Lote de Voz",
+        "gameId": 7,
+        "precio": 5.99,
+        "stock": 22,
+        "descripcion": "Líneas de voz y efectos para héroes.",
+        "imagen": "images/products/banner.png",
+        "type": "account"
+    },
+    {
+        "id": 100,
+        "nombre": "MR Boost 10 partidas",
+        "gameId": 7,
+        "stock": 5,
+        "descripcion": "Acompañamiento en 10 partidas clasificadas.",
+        "imagen": "images/products/venom.png",
+        "type": "services"
+    },
+    {
+        "id": 101,
+        "nombre": "OSRS Zulrah Kit",
+        "gameId": 1,
+        "precio": 34.99,
+        "stock": 4,
+        "descripcion": "Equipo y suministros para Zulrah.",
+        "imagen": "images/products/torva.png",
+        "type": "account"
+    },
+    {
+        "id": 102,
+        "nombre": "WoW Servicio de Alts",
+        "gameId": 3,
+        "stock": 7,
+        "descripcion": "Nivelado y equipamiento básico de personajes alternos.",
+        "imagen": "images/products/torva.png",
+        "type": "services"
+    },
+    {
+        "id": 103,
+        "nombre": "GI Armas 4★ Bundle",
+        "gameId": 2,
+        "precio": 49.99,
+        "stock": 3,
+        "descripcion": "Selección de armas 4★ con refinamientos.",
+        "imagen": "images/products/Item_Primogem.webp",
+        "type": "account"
+    },
+    {
+        "id": 104,
+        "nombre": "LoL Coaching Team 2h",
+        "gameId": 5,
+        "stock": 4,
+        "descripcion": "Sesión para coordinación y macro de equipo.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "services"
+    },
+    {
+        "id": 105,
+        "nombre": "FN Llama Loot",
+        "gameId": 4,
+        "precio": 9.49,
+        "stock": 20,
+        "descripcion": "Recompensas de llamas con botín sorpresa.",
+        "imagen": "images/products/rp.png",
+        "type": "account"
+    },
+    {
+        "id": 106,
+        "nombre": "TFT Pase de Arena",
+        "gameId": 6,
+        "precio": 5.49,
+        "stock": 32,
+        "descripcion": "Pase con aspectos y recompensas para arena.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
+    },
+    {
+        "id": 107,
+        "nombre": "MR Cuenta Nivel 30",
+        "gameId": 7,
+        "precio": 39.99,
+        "stock": 5,
+        "descripcion": "Cuenta lista para competitivo nivel 30.",
+        "imagen": "images/products/strange.png",
+        "type": "account"
+    },
+    {
+        "id": 108,
+        "nombre": "MR Pack Cosmético Deluxe",
+        "gameId": 7,
+        "precio": 17.99,
+        "stock": 12,
+        "descripcion": "Conjunto de cosméticos premium para varios héroes.",
+        "imagen": "images/products/thor.png",
+        "type": "account"
     }
 ]

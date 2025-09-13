@@ -43,5 +43,12 @@
         "icono": "src/assets/gameicon/tft.png",
         "currencyPercentage": 0.00,
         "slugName": "teamfight-tactics"
+    }, {
+        "id": 7,
+        "name": "Marvel Rivals",
+        "shortName": "MR",
+        "icono": "src/assets/gameicon/marvel.png",
+        "currencyPercentage": 7.45,
+        "slugName": "marvel-rivals"
     }
 ]
