@@ -3,11 +3,14 @@
     <button class="pagination-btn" disabled.bind="page === 1" click.trigger="changePage(page - 1)">
       &#60;
     </button>
-    <button repeat.for="p of pages"
-            class.bind="p === page ? 'pagination-page active' : 'pagination-page'"
-            click.trigger="changePage(p)">
-      ${p}
-    </button>
+    <template repeat.for="p of pages">
+      <span if.bind="p === '...'" class="pagination-ellipsis">…</span>
+      <button else
+              class.bind="p === page ? 'pagination-page active' : 'pagination-page'"
+              click.trigger="changePage(p)">
+        ${p}
+      </button>
+    </template>
     <button class="pagination-btn" disabled.bind="page === totalPages" click.trigger="changePage(page + 1)">
       &#62;
     </button>

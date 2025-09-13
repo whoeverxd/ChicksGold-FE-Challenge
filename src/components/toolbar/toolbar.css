@@ -13,9 +13,34 @@
   z-index: 1000;
 }
 .toolbar-row-box{
-padding: 20px 0px;
+  /* Make the translucent background feel like the item's own background */
+  display: inline-flex;
+  align-items: center;
   background: rgba(255,255,255,0.12);
   backdrop-filter: blur(2px);
+  border-radius: 5px;
+  height: 52px;           /* uniform control height */
+  padding: 0;        /* only horizontal padding */
+  border: 1px solid rgba(255,255,255,0.16); /* subtle edge to reveal the radius */
+}
+
+/* Ensure the search control sits nicely inside the pill */
+.toolbar-row-box .toolbar-search {
+  margin: 0;               /* rely on outer pill padding */
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* Make dropdown buttons fill the pill height without extra vertical padding */
+.toolbar-row-box .toolbar-btn {
+  height: 100%;
+  padding: 0 12px;
+}
+
+.toolbar-row-box:hover {
+  background: rgba(255,255,255,0.16);
+  border-color: rgba(255,255,255,0.22);
 }
 .toolbar-dropdown {
   position: relative;
@@ -91,7 +116,9 @@ padding: 20px 0px;
 
 .toolbar-search-input {
   width: 100%;
-  padding: 8px 36px 8px 16px;
+  box-sizing: border-box;
+  height: 100%;
+  padding: 0 36px 0 16px;  /* keep icon space on the right */
 
   border: none;
   background: transparent;

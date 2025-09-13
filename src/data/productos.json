@@ -66,6 +66,506 @@
         "descripcion": "Este producto tiene precio, pero el juego no tiene descuento",
         "imagen": "images/products/lol-icon.webp",
         "type": "account"
+    },
+    {
+        "id": 8,
+        "nombre": "Torva platelegs",
+        "gameId": 1,
+        "precio": 10.00,
+        "stock": 25,
+        "descripcion": "The Torva platelegs are part of the Torva armour set, requiring 80 Defence to wear. The platelegs boast the highest strength bonus of any legs slot equipment, being 2 higher than the Bandos tassets. As a Zarosian-aligned item, Torva armour will give Zarosian protection within the God Wars Dungeon. The platelegs are created by combining damaged Torva platelegs, obtained as a drop from Nex, with two Bandosian components. This process requires level 90 Smithing, and is not reversible.",
+        "imagen": "images/products/torva.png",
+        "type": "currency"
+    },
+    {
+        "id": 9,
+        "nombre": "V-Bucks Pack 1000",
+        "gameId": 4,
+        "precio": 9.99,
+        "precioOriginal": 12.99,
+        "stock": 40,
+        "descripcion": "Paquete de 1000 V-Bucks para tus cosméticos favoritos.",
+        "imagen": "images/products/rp.png",
+        "type": "currency"
+    },
+    {
+        "id": 10,
+        "nombre": "Gemas x1600",
+        "gameId": 2,
+        "precio": 24.99,
+        "precioOriginal": 29.99,
+        "stock": 22,
+        "descripcion": "Recarga de gemas ideal para un par de multis.",
+        "imagen": "images/products/Item_Primogem.webp",
+        "type": "currency"
+    },
+    {
+        "id": 11,
+        "nombre": "Cuenta Starter GI",
+        "gameId": 2,
+        "precio": 14.50,
+        "stock": 18,
+        "descripcion": "Cuenta inicial con progreso básico y recursos.",
+        "imagen": "images/products/paimon.jpeg",
+        "type": "account"
+    },
+    {
+        "id": 12,
+        "nombre": "Boost Duo – 3 partidas",
+        "gameId": 5,
+        "stock": 15,
+        "descripcion": "Servicio de boost dúo por 3 partidas rankeds.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "services"
+    },
+    {
+        "id": 13,
+        "nombre": "OSRS Gold 10M",
+        "gameId": 1,
+        "precio": 6.99,
+        "stock": 120,
+        "descripcion": "Paquete de 10 millones de monedas de Oldschool Runescape.",
+        "imagen": "images/products/torva.png",
+        "type": "currency"
+    },
+    {
+        "id": 14,
+        "nombre": "Loot Hextech Bundle",
+        "gameId": 6,
+        "precio": 19.99,
+        "precioOriginal": 24.99,
+        "stock": 35,
+        "descripcion": "Cofres y llaves para progresar tu colección.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
+    },
+    {
+        "id": 15,
+        "nombre": "Skin Pack FN",
+        "gameId": 4,
+        "precio": 7.49,
+        "stock": 50,
+        "descripcion": "Selección rotativa de cosméticos para Fortnite.",
+        "imagen": "images/products/rp.png",
+        "type": "account"
+    },
+    {
+        "id": 16,
+        "nombre": "Subida de Elo – Plata a Oro",
+        "gameId": 5,
+        "stock": 8,
+        "descripcion": "Servicio de subida de Elo desde Plata hasta Oro.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "services"
+    },
+    {
+        "id": 17,
+        "nombre": "WoW Gold 100k",
+        "gameId": 3,
+        "precio": 12.90,
+        "stock": 70,
+        "descripcion": "Paquete de 100,000 de oro para World of Warcraft.",
+        "imagen": "images/products/torva.png",
+        "type": "currency"
+    },
+    {
+        "id": 18,
+        "nombre": "Cuenta WoW Nivel 70",
+        "gameId": 3,
+        "precio": 89.00,
+        "stock": 6,
+        "descripcion": "Personaje nivel 70 con equipo básico para empezar.",
+        "imagen": "images/products/torva.png",
+        "type": "account"
+    },
+    {
+        "id": 19,
+        "nombre": "GI Resin Pack",
+        "gameId": 2,
+        "precio": 3.99,
+        "stock": 90,
+        "descripcion": "Paquete para recuperar resina más rápido.",
+        "imagen": "images/products/Item_Primogem.webp",
+        "type": "currency"
+    },
+    {
+        "id": 20,
+        "nombre": "Coaching LoL 1 hora",
+        "gameId": 5,
+        "stock": 20,
+        "descripcion": "Sesión de coaching personalizada de 60 minutos.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "services"
+    },
+    {
+        "id": 21,
+        "nombre": "OSRS Gear Set",
+        "gameId": 1,
+        "precio": 14.75,
+        "stock": 22,
+        "descripcion": "Conjunto de equipo inicial para PVM básico.",
+        "imagen": "images/products/torva.png",
+        "type": "account"
+    },
+    {
+        "id": 22,
+        "nombre": "TFT Pass Upgrade",
+        "gameId": 6,
+        "precio": 8.49,
+        "stock": 28,
+        "descripcion": "Mejora de pase para recompensas adicionales.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
+    },
+    {
+        "id": 23,
+        "nombre": "Fortnite Crew Mes",
+        "gameId": 4,
+        "precio": 10.99,
+        "precioOriginal": 12.99,
+        "stock": 15,
+        "descripcion": "Suscripción mensual con skin y V-Bucks.",
+        "imagen": "images/products/rp.png",
+        "type": "account"
+    },
+    {
+        "id": 24,
+        "nombre": "Farm GI – 2 horas",
+        "gameId": 2,
+        "stock": 10,
+        "descripcion": "Servicio de farmeo de materiales y artefactos por 2h.",
+        "imagen": "images/products/paimon.jpeg",
+        "type": "services"
+    },
+    {
+        "id": 25,
+        "nombre": "LoL RP 2800",
+        "gameId": 5,
+        "precio": 19.50,
+        "stock": 44,
+        "descripcion": "Paquete mediano de Riot Points.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "currency"
+    },
+    {
+        "id": 26,
+        "nombre": "OSRS Quest Pack",
+        "gameId": 1,
+        "stock": 12,
+        "descripcion": "Completado de varias quests clave (bundle).",
+        "imagen": "images/products/torva.png",
+        "type": "services"
+    },
+    {
+        "id": 27,
+        "nombre": "WoW Token",
+        "gameId": 3,
+        "precio": 21.99,
+        "stock": 18,
+        "descripcion": "Token para tiempo de juego o balance.",
+        "imagen": "images/products/torva.png",
+        "type": "currency"
+    },
+    {
+        "id": 28,
+        "nombre": "Cuenta FN Nivel 60",
+        "gameId": 4,
+        "precio": 39.00,
+        "stock": 7,
+        "descripcion": "Cuenta con progreso de pase y cosméticos básicos.",
+        "imagen": "images/products/rp.png",
+        "type": "account"
+    },
+    {
+        "id": 29,
+        "nombre": "GI Cristales bónus",
+        "gameId": 2,
+        "precio": 15.99,
+        "precioOriginal": 18.99,
+        "stock": 33,
+        "descripcion": "Cristales con bónus por primera compra.",
+        "imagen": "images/products/Item_Primogem.webp",
+        "type": "currency"
+    },
+    {
+        "id": 30,
+        "nombre": "Coaching TFT – comp meta",
+        "gameId": 6,
+        "stock": 14,
+        "descripcion": "Sesión para aprender composiciones del meta.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "services"
+    },
+    {
+        "id": 31,
+        "nombre": "OSRS Rune Set",
+        "gameId": 1,
+        "precio": 4.80,
+        "stock": 60,
+        "descripcion": "Set básico de runas para empezar rápido.",
+        "imagen": "images/products/torva.png",
+        "type": "currency"
+    },
+    {
+        "id": 32,
+        "nombre": "WoW Mount Rara",
+        "gameId": 3,
+        "precio": 59.00,
+        "precioOriginal": 69.00,
+        "stock": 5,
+        "descripcion": "Montura rara obtenida mediante logro/evento.",
+        "imagen": "images/products/torva.png",
+        "type": "account"
+    },
+    {
+        "id": 33,
+        "nombre": "GI Cuenta AR 35",
+        "gameId": 2,
+        "precio": 34.99,
+        "stock": 11,
+        "descripcion": "Cuenta intermedia con varios 4★ y recursos.",
+        "imagen": "images/products/paimon.jpeg",
+        "type": "account"
+    },
+    {
+        "id": 34,
+        "nombre": "Boost LoL – 2 divisiones",
+        "gameId": 5,
+        "stock": 9,
+        "descripcion": "Subida de dos divisiones en clasificatoria.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "services"
+    },
+    {
+        "id": 35,
+        "nombre": "FN Emote Bundle",
+        "gameId": 4,
+        "precio": 6.50,
+        "stock": 26,
+        "descripcion": "Paquete de emotes seleccionados.",
+        "imagen": "images/products/rp.png",
+        "type": "account"
+    },
+    {
+        "id": 36,
+        "nombre": "OSRS Boss Carry",
+        "gameId": 1,
+        "stock": 6,
+        "descripcion": "Ayuda para derrotar jefes específicos.",
+        "imagen": "images/products/torva.png",
+        "type": "services"
+    },
+    {
+        "id": 37,
+        "nombre": "TFT Little Legend",
+        "gameId": 6,
+        "precio": 4.99,
+        "stock": 40,
+        "descripcion": "Pequeña leyenda aleatoria.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
+    },
+    {
+        "id": 38,
+        "nombre": "WoW Herb Bundle",
+        "gameId": 3,
+        "precio": 8.99,
+        "stock": 34,
+        "descripcion": "Paquete de hierbas para profesiones.",
+        "imagen": "images/products/torva.png",
+        "type": "currency"
+    },
+    {
+        "id": 39,
+        "nombre": "GI Welkin Month",
+        "gameId": 2,
+        "precio": 4.99,
+        "stock": 100,
+        "descripcion": "Bendición lunar (Welkin) por un mes.",
+        "imagen": "images/products/Item_Primogem.webp",
+        "type": "account"
+    },
+    {
+        "id": 40,
+        "nombre": "LoL RP 650",
+        "gameId": 5,
+        "precio": 5.99,
+        "stock": 80,
+        "descripcion": "Paquete pequeño de Riot Points.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "currency"
+    },
+    {
+        "id": 41,
+        "nombre": "FN Battle Pass",
+        "gameId": 4,
+        "precio": 9.49,
+        "stock": 25,
+        "descripcion": "Pase de batalla de la temporada actual.",
+        "imagen": "images/products/rp.png",
+        "type": "account"
+    },
+    {
+        "id": 42,
+        "nombre": "OSRS Skill Training 1h",
+        "gameId": 1,
+        "stock": 16,
+        "descripcion": "Entrenamiento de una habilidad por una hora.",
+        "imagen": "images/products/torva.png",
+        "type": "services"
+    },
+    {
+        "id": 43,
+        "nombre": "WoW Raid Clear",
+        "gameId": 3,
+        "stock": 4,
+        "descripcion": "Limpieza de banda normal con loot asignado.",
+        "imagen": "images/products/torva.png",
+        "type": "services"
+    },
+    {
+        "id": 44,
+        "nombre": "GI Artefact Strongbox",
+        "gameId": 2,
+        "precio": 2.49,
+        "stock": 55,
+        "descripcion": "Cajas de artefactos para reforjar.",
+        "imagen": "images/products/Item_Primogem.webp",
+        "type": "currency"
+    },
+    {
+        "id": 45,
+        "nombre": "LoL Blue Essence 20k",
+        "gameId": 5,
+        "precio": 11.99,
+        "stock": 19,
+        "descripcion": "Esencia azul para desbloquear campeones.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "currency"
+    },
+    {
+        "id": 46,
+        "nombre": "FN Bundle Cosmético",
+        "gameId": 4,
+        "precio": 13.99,
+        "stock": 21,
+        "descripcion": "Conjunto de cosméticos temáticos.",
+        "imagen": "images/products/rp.png",
+        "type": "account"
+    },
+    {
+        "id": 47,
+        "nombre": "OSRS Clue Scroll Service",
+        "gameId": 1,
+        "stock": 10,
+        "descripcion": "Resolución de Clue Scrolls seleccionados.",
+        "imagen": "images/products/torva.png",
+        "type": "services"
+    },
+    {
+        "id": 48,
+        "nombre": "WoW Profession Boost",
+        "gameId": 3,
+        "stock": 7,
+        "descripcion": "Subida de profesiones hasta un umbral pactado.",
+        "imagen": "images/products/torva.png",
+        "type": "services"
+    },
+    {
+        "id": 49,
+        "nombre": "GI Cuenta con 5★",
+        "gameId": 2,
+        "precio": 129.00,
+        "stock": 3,
+        "descripcion": "Cuenta con al menos un personaje 5★ limitado.",
+        "imagen": "images/products/paimon.jpeg",
+        "type": "account"
+    },
+    {
+        "id": 50,
+        "nombre": "LoL Mystery Skin",
+        "gameId": 5,
+        "precio": 3.49,
+        "stock": 48,
+        "descripcion": "Skin misteriosa aleatoria para campeones.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
+    },
+    {
+        "id": 51,
+        "nombre": "TFT Egg Bundle",
+        "gameId": 6,
+        "precio": 7.99,
+        "stock": 30,
+        "descripcion": "Paquete de huevos de pequeñas leyendas.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
+    },
+    {
+        "id": 52,
+        "nombre": "OSRS Bonds x2",
+        "gameId": 1,
+        "precio": 9.79,
+        "stock": 24,
+        "descripcion": "Dos bonds para membresía o trade.",
+        "imagen": "images/products/torva.png",
+        "type": "currency"
+    },
+    {
+        "id": 53,
+        "nombre": "WoW Boost M+ Key",
+        "gameId": 3,
+        "stock": 9,
+        "descripcion": "Carrera de piedra mítica con timing garantizado.",
+        "imagen": "images/products/torva.png",
+        "type": "services"
+    },
+    {
+        "id": 54,
+        "nombre": "FN Paquete Picos",
+        "gameId": 4,
+        "precio": 5.49,
+        "stock": 32,
+        "descripcion": "Selección de picos y herramientas.",
+        "imagen": "images/products/rp.png",
+        "type": "account"
+    },
+    {
+        "id": 55,
+        "nombre": "GI Resin Refill+",
+        "gameId": 2,
+        "precio": 6.49,
+        "stock": 52,
+        "descripcion": "Recuperación de resina potenciada.",
+        "imagen": "images/products/Item_Primogem.webp",
+        "type": "currency"
+    },
+    {
+        "id": 56,
+        "nombre": "LoL Name Change",
+        "gameId": 5,
+        "stock": 11,
+        "descripcion": "Gestión de cambio de nombre de invocador.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "services"
+    },
+    {
+        "id": 57,
+        "nombre": "WoW Boost Leveling",
+        "gameId": 3,
+        "stock": 6,
+        "descripcion": "Subida de nivel rápida con rutas optimizadas.",
+        "imagen": "images/products/torva.png",
+        "type": "services"
+    },
+    {
+        "id": 58,
+        "nombre": "TFT Arena Skin",
+        "gameId": 6,
+        "precio": 11.49,
+        "stock": 13,
+        "descripcion": "Aspecto para la arena de TFT.",
+        "imagen": "images/products/lol-icon.webp",
+        "type": "account"
     }
-    
 ]

@@ -326,3 +326,60 @@ img.product-img {
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+/* Compact tweaks for very small screens: keep single card a bit shorter */
+@media (max-width: 480px) {
+  .product-card {
+    aspect-ratio: 4 / 5; /* slightly less tall than 4/6 */
+    min-height: 360px;   /* down from 432px */
+    padding: 16px 16px 12px 16px; /* tighter padding */
+    gap: 8px;
+  }
+
+  .product-card-header {
+    margin-bottom: 4px;
+  }
+
+  .product-image {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 8px;
+  }
+
+  .product-price-row {
+    font-size: 1.1rem; /* was 1.25rem */
+    gap: 8px;
+  }
+
+  .product-price-original {
+    font-size: 1rem;
+  }
+
+  .product-description {
+    font-size: 0.95rem;
+    margin: 6px 0 12px 0;
+  }
+
+  .qty-box-horizontal {
+    height: 48px; /* was 55px */
+  }
+
+  .qty-input {
+    height: 24px;
+    font-size: 1rem;
+  }
+
+  .details-btn {
+    padding: 12px 12px; /* down from 16px */
+    font-size: 1rem;
+  }
+
+  .add-btn {
+    padding: 10px 0; /* down from 12px */
+  }
+
+  .add-cart-icon {
+    width: 34px;
+    height: 34px;
+  }
+}

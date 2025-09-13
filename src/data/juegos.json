@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Oldschool Runescape",
         "shortName": "OSRS",
-        "icono": "src/assets/gameicon/osrs.png",
+        "icono": "src/assets/gameicon/ors.png",
         "currencyPercentage": 15.21,
         "slugName": "oldschool-runescape"
     }, {
