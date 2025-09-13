@@ -17,8 +17,7 @@
       </button>
       <ul if.bind="isGameOpen" class="toolbar-dropdown-list">
         <li class="toolbar-dropdown-item" click.trigger="selectGame('All')">All</li>
-        <li repeat.for="game of games" class="toolbar-dropdown-item" click.trigger="selectGame(game.id)">${game.name}
-        </li>
+        <li repeat.for="game of games" class="toolbar-dropdown-item" click.trigger="selectGame(game.id)">${game.name}</li>
       </ul>
     </div>
     <!-- Search -->
@@ -68,6 +67,44 @@
         </li>
       </ul>
     </div>
-
+    <!-- Filters button for small screens -->
+    <button class="filters-btn toolbar-row-box" click.trigger="toggleFilters()">
+      <img src="/src/assets/icons/filter.svg" alt="Filter Icon" class="toolbar-icon" />
+      <span>Filters</span>
+    </button>
+  </div>
+  <!-- Bottom sheet filters panel -->
+  <div if.bind="isFiltersOpen">
+    <div class="filters-overlay" click.trigger="closeFilters()"></div>
+    <div class="filters-panel" role="dialog" aria-modal="true">
+      <div class="filters-header">
+        <h3>Filters</h3>
+        <button class="filters-close" aria-label="Close" click.trigger="closeFilters()">✕</button>
+      </div>
+      <div class="filters-section">
+        <h4>Game</h4>
+        <ul class="filters-list">
+          <li class="filters-item ${selectedGame === 'All' || !selectedGame ? 'selected' : ''}" click.trigger="selectGame('All')">All</li>
+          <li repeat.for="game of games" class="filters-item ${selectedGame == game.id ? 'selected' : ''}" click.trigger="selectGame(game.id)">${game.name}</li>
+        </ul>
+      </div>
+      <div class="filters-section">
+        <h4>Price</h4>
+        <ul class="filters-list">
+          <li class="filters-item ${selectedPrice === 'All' || !selectedPrice ? 'selected' : ''}" click.trigger="selectPrice('All')">All</li>
+          <li repeat.for="price of priceOptions" class="filters-item ${selectedPrice == price ? 'selected' : ''}" click.trigger="selectPrice(price)">${price}</li>
+        </ul>
+      </div>
+      <div class="filters-section">
+        <h4>Item Type</h4>
+        <ul class="filters-list">
+          <li class="filters-item ${selectedType === 'All' || !selectedType ? 'selected' : ''}" click.trigger="selectType('All')">All</li>
+          <li repeat.for="type of typeOptions" class="filters-item ${selectedType == type ? 'selected' : ''}" click.trigger="selectType(type)">${type}</li>
+        </ul>
+      </div>
+      <div class="filters-actions">
+        <button class="filters-apply" click.trigger="closeFilters()">Apply</button>
+      </div>
+    </div>
   </div>
 </template>

@@ -15,6 +15,7 @@ export class Toolbar {
   isGameOpen = false;
   isPriceOpen = false;
   isTypeOpen = false;
+  isFiltersOpen = false;
 
   selectGame(game: string) {
     this.selectedGame = game;
@@ -34,6 +35,12 @@ export class Toolbar {
   }
   onSearch() {
     this.emitChange();
+  }
+  toggleFilters() {
+    this.isFiltersOpen = !this.isFiltersOpen;
+  }
+  closeFilters() {
+    this.isFiltersOpen = false;
   }
   emitChange() {
     if (this.filtersChange) {

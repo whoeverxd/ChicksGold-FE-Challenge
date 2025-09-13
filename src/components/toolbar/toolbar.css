@@ -116,3 +116,70 @@ padding: 20px 0px;
   flex: 1 1 300px;
 
 }
+
+/* Bottom sheet filters (mobile) */
+.filters-btn {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+.filters-btn:hover { background: #35365a; }
+
+.filters-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 1999;
+}
+.filters-panel {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #23243a;
+  border-radius: 12px 12px 0 0;
+  padding: 16px;
+  box-shadow: 0 -8px 24px rgba(0,0,0,0.3);
+  z-index: 2000;
+  max-height: 70vh;
+  overflow: auto;
+}
+.filters-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.filters-header h3 { color: #fff; margin: 0; font-size: 1.1rem; }
+.filters-close { background: none; border: none; color: #fff; font-size: 1.2rem; cursor: pointer; }
+.filters-section { margin: 12px 0; }
+.filters-section h4 { color: #bfc8e6; margin: 0 0 8px 0; font-size: 0.95rem; }
+.filters-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 8px; }
+.filters-item { color: #fff; padding: 10px 12px; background: #2a2b3d; border-radius: 8px; cursor: pointer; }
+.filters-item:hover { background: #35365a; }
+.filters-item.selected {
+  background: #3b3d69;
+  border: 1px solid #5a6cf3;
+  position: relative;
+}
+.filters-item.selected::after {
+  content: '\2713';
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  color: #9fb2ff;
+  text-shadow: 0 0 2px rgba(0,0,0,0.4);
+}
+.filters-actions { margin-top: 12px; display: flex; justify-content: flex-end; }
+.filters-apply { background: #5a6cf3; color: #fff; border: none; border-radius: 8px; padding: 10px 16px; font-weight: 700; cursor: pointer; }
+
+@media (max-width: 900px) {
+  /* hide individual dropdowns, keep search and show Filters button */
+  .toolbar-dropdown { display: none; }
+  .filters-btn { display: inline-flex; }
+  .toolbar-search { flex: 1 1 auto; }
+}
