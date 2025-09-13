@@ -82,6 +82,18 @@ Esto levanta el servidor de desarrollo (Vite) con Hot Module Reload (HMR).
 - Estilos en CSS puro, con selectores por componente y estilos globales en `styles/main.css`.
 - Se usan utilidades modernas de CSS: `flex`, `grid`, `clamp()`, `aspect-ratio`, media queries y transiciones.
 
+### ¿Por qué `CartService` es un singleton?
+
+Usamos `@singleton()` en `CartService` para garantizar una única instancia compartida en toda la app.
+
+- Fuente única de verdad: el header (contador), los toasts y cualquier página (Home/Cart) leen y modifican el mismo estado del carrito.
+- Consistencia al navegar: la navegación SPA no recarga la página, pero sí crea/destruye vistas; con un servicio singleton el estado del carrito persiste aunque cambie la ruta.
+- Persistencia controlada: el método `initializing()` carga desde `localStorage` una sola vez; múltiples instancias podrían competir y sobrescribir estado.
+- Eventos sin duplicados: publicamos `cart:changed` y `cart:added` con `IEventAggregator`. Una sola instancia evita toasts o contadores duplicados/inconsistentes.
+- Evita “carritos paralelos”: si el servicio no fuera singleton, cada componente que lo inyecta podría recibir una copia distinta, rompiendo el sincronismo entre UI y datos.
+
+
+
 ## Scripts útiles
 
 - `start`: inicia el servidor de desarrollo.
