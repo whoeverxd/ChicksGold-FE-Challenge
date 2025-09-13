@@ -1,6 +1,23 @@
 
 import { customElement } from 'aurelia';
-import template from './currency-selector.html';
+
+const template = `<template>
+	<div class="currency-selector-wrapper">
+		<button class="currency-btn" type="button" click.trigger="isOpen = !isOpen">
+			<span class="currency-label">\${selectedCurrency}</span>
+			<svg class="currency-arrow" aria-expanded.bind="isOpen" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+				<polyline points="6 9 12 15 18 9" />
+			</svg>
+		</button>
+		<div if.bind="isOpen" class="currency-popup">
+			<ul>
+				<li repeat.for="currency of currencies" class="currency-option" click.trigger="selectCurrency(currency)">
+					\${currency}
+				</li>
+			</ul>
+		</div>
+	</div>
+</template>`;
 
 @customElement({ name: 'currency-selector', template })
 export class CurrencySelector {

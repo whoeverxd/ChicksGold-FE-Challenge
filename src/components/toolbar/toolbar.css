@@ -89,9 +89,6 @@
 .toolbar-arrow.open {
   transform: rotate(180deg);
 }
-.toolbar-arrow[aria-expanded="true"] {
-  transform: rotate(180deg);
-}
 .toolbar-dropdown-list {
   position: absolute;
   left: 0;
