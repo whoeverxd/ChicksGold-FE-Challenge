@@ -11,8 +11,6 @@
     padding: 8px 16px;
     border-radius: 8px;
     transition: background 0.2s;
-    
-    z-index: 0 !important;
 
 }
 .sort-icon-vertical {
@@ -52,7 +50,6 @@
 .sort-dropdown-wrapper {
     position: relative;
     display: inline-block;
-    z-index: 0 !important;
 }
 
 

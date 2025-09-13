@@ -9,6 +9,8 @@
   padding: 16px 0px;
   border-radius: 12px;
   margin-bottom: 24px;
+  position: relative; /* elevate stacking context */
+  z-index: 1000;
 }
 .toolbar-row-box{
 padding: 20px 0px;
@@ -70,7 +72,7 @@ padding: 20px 0px;
   border-radius: 8px;
   box-shadow: 0 4px 24px rgba(0,0,0,0.18);
   min-width: 180px;
-  z-index: 99999;
+  z-index: 2000;
   padding: 8px 0;
   margin-top: 4px;
   list-style: none;
