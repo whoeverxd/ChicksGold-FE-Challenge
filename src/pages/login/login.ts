@@ -1,7 +1,8 @@
 import { customElement } from 'aurelia';
 import './login.css';
+import template from './login.html?raw';
 
-@customElement('login-page')
+@customElement({ name: 'login-page', template })
 export class LoginPage {
   email = '';
   password = '';

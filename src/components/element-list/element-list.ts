@@ -1,5 +1,6 @@
 import { customElement, bindable } from 'aurelia';
 import './element-list.css';
+import filterIconUrl from '../../assets/icons/filter.svg?url';
 
 @customElement('element-list')
 export class ElementList {
@@ -13,6 +14,7 @@ export class ElementList {
     isSortOpen = false;
     selectedSort = 'Featured';
     sortOptions = ['Featured', 'Price: Low to High', 'Price: High to Low', 'Stock', 'Name'];
+    filterIconUrl = filterIconUrl;
 
     selectSort(option: string) {
         this.selectedSort = option;

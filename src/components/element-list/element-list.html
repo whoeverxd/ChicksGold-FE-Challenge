@@ -8,7 +8,7 @@
             </div>
             <div class="sort-dropdown-wrapper">
                 <button class="sort-dropdown-btn" click.trigger="isSortOpen = !isSortOpen">
-                    <img src="/src/assets/icons/filter.svg" alt="Sort Icon" class="sort-icon-vertical" />
+                    <img src.bind="filterIconUrl" alt="Sort Icon" class="sort-icon-vertical" />
                     <div class="sort-dropdown-labels">
                         <span class="sort-label">Sort By</span>
                         <span class="sort-selected">${selectedSort}</span>

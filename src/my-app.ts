@@ -16,7 +16,7 @@ import { route } from '@aurelia/router';
 
 @route({
   routes: [
-    { path: '', component: Home, title: 'Home' },
+    { path: ['', 'home'], component: Home, title: 'Home' },
     { path: 'cart', component: Cart, title: 'Cart' },
     { path: 'login', component: LoginPage, title: 'Sign in' },
   ]
