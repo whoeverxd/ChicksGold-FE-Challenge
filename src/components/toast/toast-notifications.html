@@ -1,0 +1,12 @@
+<template>
+  <div class="toast-container" aria-live="polite" aria-atomic="true">
+    <div repeat.for="t of toasts" class="toast ${t.state}">
+      <div class="toast-icon" aria-hidden="true">✓</div>
+      <div class="toast-content">
+        <div class="toast-title">Added to cart</div>
+        <div class="toast-body">${t.message}</div>
+      </div>
+      <button class="toast-close" aria-label="Close" click.trigger="dismiss(t)">✕</button>
+    </div>
+  </div>
+</template>

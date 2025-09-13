@@ -5,8 +5,9 @@
                 <button class="hamburger-btn" aria-label="Open menu" aria-expanded.bind="isMobileMenuOpen" click.trigger="toggleMobileMenu()">
                     <img src="/src/assets/icons/Hamburger_icon.png" alt="Menu" class="hamburger-icon" />
                 </button>
-                <img src="/src/assets/logo/chicks-logo-large.svg" alt="Logo" class="header-logo"
-                    click.trigger="onLogoClick()" style="cursor:pointer;" />
+                <a class="logo-link" load="/" href="/" aria-label="Home">
+                    <img src="/src/assets/logo/chicks-logo-large.svg" alt="Logo" class="header-logo" />
+                </a>
             </div>
             <category-navigation></category-navigation>
             <div class="header-spacer"></div>
@@ -33,7 +34,9 @@
         <div if.bind="isMobileMenuOpen" class="mobile-overlay" click.trigger="closeMobileMenu()"></div>
         <aside class="mobile-drawer ${isMobileMenuOpen ? 'open' : ''}" role="dialog" aria-modal="true">
             <div class="mobile-drawer-header">
-                <img src="/src/assets/logo/chicks-logo-large.svg" alt="Logo" class="header-logo" />
+                <a class="logo-link" load="/" href="/" aria-label="Home">
+                    <img src="/src/assets/logo/chicks-logo-large.svg" alt="Logo" class="header-logo" />
+                </a>
                 <button class="drawer-close" aria-label="Close" click.trigger="closeMobileMenu()">✕</button>
             </div>
             <nav class="mobile-nav">

@@ -6,7 +6,4 @@ import './cart-icon.css';
 @customElement('cart-icon')
 export class CartIcon {
     @bindable count = 0;
-    onCartClick() {
-        window.location.href = '/cart';
-    }
 }

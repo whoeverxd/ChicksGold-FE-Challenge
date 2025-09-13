@@ -21,6 +21,8 @@ Run unit tests in watch mode.
 
 ## IMPORTANTE - DOCUMENTACION
 
+    - se asume que los datos vienen correctos del lado del servidor- pocas validaciones se realizaran sobre los datos. 
+    - a los productos se les valida el precio, o cantidad en existencia
     - se utilizara fetch relativo para los productos , simulando una llamada al api, el json no va en la carpeta publica.
     - Proyecto hecho en Aurelia 2 + TypeScript.
     - Estilos en CSS puro (sin frameworks).
@@ -30,9 +32,11 @@ Run unit tests in watch mode.
     - los assets de iconos y de uso de la pagina, estan en src/assets
     - los assets de imagenes, de productos y cosas que simulan venir del api en la carpeta public
     - el buscador de texto, busca en el titulo y la descripcion, se puede configurar para revisar el slug y demas info if needed
-    
 
-## se añade un servicio para el carrito de productos del cliente
+## consideraciones 
+    - se añade un servicio para el carrito de productos del cliente
+    - se añade una notificacion al agregar items al carrito
+
 
 
 
