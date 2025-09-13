@@ -2,7 +2,7 @@
     <header class="main-header">
         <div class="header-content">
             <div class="header-left">
-                <button class="hamburger-btn" aria-label="Open menu">
+                <button class="hamburger-btn" aria-label="Open menu" aria-expanded.bind="isMobileMenuOpen" click.trigger="toggleMobileMenu()">
                     <img src="/src/assets/icons/Hamburger_icon.png" alt="Menu" class="hamburger-icon" />
                 </button>
                 <img src="/src/assets/logo/chicks-logo-large.svg" alt="Logo" class="header-logo"
@@ -29,5 +29,23 @@
                 </button>
             </div>
         </div>
+        <!-- Mobile overlay and drawer -->
+        <div if.bind="isMobileMenuOpen" class="mobile-overlay" click.trigger="closeMobileMenu()"></div>
+        <aside class="mobile-drawer ${isMobileMenuOpen ? 'open' : ''}" role="dialog" aria-modal="true">
+            <div class="mobile-drawer-header">
+                <img src="/src/assets/logo/chicks-logo-large.svg" alt="Logo" class="header-logo" />
+                <button class="drawer-close" aria-label="Close" click.trigger="closeMobileMenu()">✕</button>
+            </div>
+            <nav class="mobile-nav">
+                <ul class="mobile-categories">
+                    <li repeat.for="cat of ['CURRENCY','ITEMS','ACCOUNTS','SERVICES','SWAP','SELL']" class="mobile-cat-item">${cat}</li>
+                </ul>
+            </nav>
+            <div class="mobile-actions">
+                <cart-icon count.bind="cartCount"></cart-icon>
+                <currency-selector></currency-selector>
+                <button class="header-signin sign-in-button">SIGN IN</button>
+            </div>
+        </aside>
     </header>
 </template>

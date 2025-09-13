@@ -3,8 +3,9 @@
   border: none;
   position: relative;
   cursor: pointer;
-  display: flex;
+  display: inline-flex; /* keep content on one line and align with neighbors */
   align-items: center;
+  white-space: nowrap; /* prevent icon/label wrapping */
 }
 
 .cart-icon-svg {
@@ -37,4 +38,9 @@
   color: #fff;
   font-weight: 500;
   font-size: 16px;
+}
+
+@media (max-width: 900px) {
+  /* Keep icon visible but hide the text label on small screens */
+  .cart-label { display: none; }
 }
