@@ -3,6 +3,7 @@ import { nodePolyfills } from 'vite-plugin-node-polyfills'
 import aurelia from '@aurelia/vite-plugin';
 
 export default defineConfig({
+  base: '/ChicksGold-FE-Challenge/', 
   server: {
     open: !process.env.CI,
     port: 9000,
