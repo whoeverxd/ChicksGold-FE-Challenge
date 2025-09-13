@@ -235,6 +235,8 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    cursor: pointer;
+        text-decoration: none; /* ensure anchor button has no underline */
 }
 
 .header-signin:hover {

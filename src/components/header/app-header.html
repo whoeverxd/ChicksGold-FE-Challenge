@@ -3,10 +3,10 @@
         <div class="header-content">
             <div class="header-left">
                 <button class="hamburger-btn" aria-label="Open menu" aria-expanded.bind="isMobileMenuOpen" click.trigger="toggleMobileMenu()">
-                    <img src="/src/assets/icons/Hamburger_icon.png" alt="Menu" class="hamburger-icon" />
+                    <img src.bind="hamburgerUrl" alt="Menu" class="hamburger-icon" />
                 </button>
-                <a class="logo-link" load="/" href="/" aria-label="Home">
-                    <img src="/src/assets/logo/chicks-logo-large.svg" alt="Logo" class="header-logo" />
+                <a class="logo-link" goto="/" href="/" aria-label="Home">
+                    <img src.bind="logoUrl" alt="Logo" class="header-logo" />
                 </a>
             </div>
             <category-navigation></category-navigation>
@@ -14,7 +14,7 @@
             <div class="header-right">
                 <cart-icon count.bind="cartCount"></cart-icon>
                 <currency-selector></currency-selector>
-                <button class="header-signin sign-in-button">
+                <button class="header-signin sign-in-button" type="button" click.trigger="goToLogin($event)">
                     SIGN IN
                     <span class="user-icon" aria-hidden="true">
                         <svg class="user-icon-outline" width="22" height="22" viewBox="0 0 24 24" fill="none"
@@ -34,8 +34,8 @@
         <div if.bind="isMobileMenuOpen" class="mobile-overlay" click.trigger="closeMobileMenu()"></div>
         <aside class="mobile-drawer ${isMobileMenuOpen ? 'open' : ''}" role="dialog" aria-modal="true">
             <div class="mobile-drawer-header">
-                <a class="logo-link" load="/" href="/" aria-label="Home">
-                    <img src="/src/assets/logo/chicks-logo-large.svg" alt="Logo" class="header-logo" />
+                <a class="logo-link" goto="/" href="/" aria-label="Home">
+                    <img src.bind="logoUrl" alt="Logo" class="header-logo" />
                 </a>
                 <button class="drawer-close" aria-label="Close" click.trigger="closeMobileMenu()">✕</button>
             </div>
@@ -47,7 +47,7 @@
             <div class="mobile-actions">
                 <cart-icon count.bind="cartCount"></cart-icon>
                 <currency-selector></currency-selector>
-                <button class="header-signin sign-in-button">SIGN IN</button>
+                <button class="header-signin sign-in-button" type="button" click.trigger="goToLogin($event)">SIGN IN</button>
             </div>
         </aside>
     </header>
