@@ -34,7 +34,11 @@
     "pretest": "npm run lint",
     "start": "vite",
     "build": "vite build",
-    "test": "vitest"
+    "test": "vitest",
+    "dev": "vite",              
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+
   },
   "type": "module",
   "overrides": {
