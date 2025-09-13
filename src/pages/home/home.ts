@@ -1,5 +1,16 @@
 import { customElement } from 'aurelia';
 
+// Pre-resolve game icon assets so Vite includes them in the bundle
+const GAME_ICONS: Record<string, string> = {
+	'ors.png': new URL('../../assets/gameicon/ors.png', import.meta.url).href,
+	'gi.png': new URL('../../assets/gameicon/gi.png', import.meta.url).href,
+	'wow.png': new URL('../../assets/gameicon/wow.png', import.meta.url).href,
+	'fn.png': new URL('../../assets/gameicon/fn.png', import.meta.url).href,
+	'lol.png': new URL('../../assets/gameicon/lol.png', import.meta.url).href,
+	'tft.png': new URL('../../assets/gameicon/tft.png', import.meta.url).href,
+	'marvel.png': new URL('../../assets/gameicon/marvel.png', import.meta.url).href,
+};
+
 @customElement('home')
 
 export class Home {
@@ -23,7 +34,7 @@ export class Home {
 	async attached() {
 		// Load games first
 		try {
-			const gamesResponse = await fetch('/src/data/juegos.json');
+			const gamesResponse = await fetch(`${import.meta.env.BASE_URL}data/juegos.json`);
 			this.games = await gamesResponse.json();
 			console.log('Games loaded:', this.games);
 		} catch (e) {
@@ -31,7 +42,7 @@ export class Home {
 			this.games = [];
 		}
 		// Load products and add gameIcon
-		const response = await fetch('/src/data/productos.json');
+		const response = await fetch(`${import.meta.env.BASE_URL}data/productos.json`);
 		const rawProducts = await response.json();
 		this.products = rawProducts.map(product => {
 			const game = this.games.find(g => g.id === product.gameId);
@@ -41,9 +52,13 @@ export class Home {
 				precioOriginal = product.precio;
 				precio = +(product.precio * (1 - game.currencyPercentage / 100)).toFixed(2);
 			}
+			const iconFile = game && game.icono ? String(game.icono).split('/').pop() : '';
+			const gameIcon = iconFile && GAME_ICONS[iconFile] ? GAME_ICONS[iconFile] : '';
+			const imagenUrl = product.imagen ? `${import.meta.env.BASE_URL}${String(product.imagen).replace(/^\/+/, '')}` : '';
 			return {
 				...product,
-				gameIcon: game ? game.icono : '',
+				gameIcon,
+				imagen: imagenUrl,
 				precioOriginal,
 				precio
 			};
