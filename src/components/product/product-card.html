@@ -29,9 +29,9 @@
       </div>
     </div>
     <div class="product-price-row" if.bind="product.precio">
-      <span class="product-price">$${product.precio.toFixed(2)}</span>
+      <span class="product-price">${currencySymbol}${product.precio.toFixed(2)}</span>
       <span class="product-price-original" if.bind="product.precioOriginal">
-        $${product.precioOriginal.toFixed(2)}
+        ${currencySymbol}${product.precioOriginal.toFixed(2)}
       </span>
     </div>
 

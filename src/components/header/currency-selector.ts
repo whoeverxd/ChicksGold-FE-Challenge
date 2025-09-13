@@ -1,5 +1,6 @@
 
-import { customElement } from 'aurelia';
+import { customElement, inject } from 'aurelia';
+import { CurrencyService } from '../../services/currency-service';
 
 const template = `<template>
 	<div class="currency-selector-wrapper">
@@ -20,16 +21,18 @@ const template = `<template>
 </template>`;
 
 @customElement({ name: 'currency-selector', template })
+@inject(CurrencyService)
 export class CurrencySelector {
 	isOpen = false;
 	selectedCurrency = 'USD';
 	currencies = ['USD', 'EUR', 'GBP', 'AUD', 'BRL', 'ARS', 'CLP', 'COP', 'MXN'];
 	closeTimeout: any = null;
 
-	constructor() {
+	constructor(private currencyService: CurrencyService) {
 		const saved = localStorage.getItem('selectedCurrency');
 		if (saved && this.currencies.includes(saved)) {
 			this.selectedCurrency = saved;
+			this.currencyService.setCurrency(saved);
 		}
 	}
 
@@ -48,7 +51,7 @@ export class CurrencySelector {
 	}
 	selectCurrency(currency: string) {
 		this.selectedCurrency = currency;
-		localStorage.setItem('selectedCurrency', currency);
+		this.currencyService.setCurrency(currency);
 		this.isOpen = false;
 	}
 }

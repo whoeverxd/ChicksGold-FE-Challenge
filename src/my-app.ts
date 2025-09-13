@@ -9,6 +9,7 @@ import { Home } from './pages/home/home';
 import { Cart } from './pages/cart/cart';
 import { LoginPage } from './pages/login/login';
 import { CartService } from './services/cart-service';
+import { CurrencyService } from './services/currency-service';
 
 
 import { route } from '@aurelia/router';
@@ -21,7 +22,7 @@ import { route } from '@aurelia/router';
   ]
 })
 export class MyApp {
-  static dependencies = [AppHeader, AppFooter, PaymentMethods, Pagination, Home, Cart, LoginPage, CartService, ToastNotifications];
+  static dependencies = [AppHeader, AppFooter, PaymentMethods, Pagination, Home, Cart, LoginPage, CartService, CurrencyService, ToastNotifications];
   constructor(private cartService: CartService) {}
   get cartCount() {
     return this.cartService.count;
