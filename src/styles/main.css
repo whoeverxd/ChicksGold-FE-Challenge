@@ -13,7 +13,7 @@
 /* Handcrafted main categories navigation */
 .main-categories-list {
     display: flex;
-    gap: clamp(6px, 0.9vw, 20px); /* tightened auto spacing so actions don't overflow */
+    gap: clamp(6px, 0.9vw, 20px);
     list-style: none;
     margin: 0;
     padding: 0;
@@ -33,21 +33,40 @@
     align-items: center;
     justify-content: center;
     background-color: transparent;
-    border-left: 2px solid transparent;
+    /* Use a full border for hover effect without layout shift */
+    border: 1px solid transparent;
+    border-radius: 0px;
+    box-sizing: border-box;
     color: #fcfcfc;
     cursor: pointer;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: .28px;
         max-width: clamp(100px, 9vw, 132px); /* allow slight width scaling, tighter */
-    height: 64px;
+    height: 60px;
         padding-inline: clamp(6px, 0.9vw, 18px); /* tighter auto-scale horizontal padding */
     transition: background 0.2s ease-in, border-color 0.2s;
     line-height: 16px;
 }
 
 .main-category-btn:hover {
-    background: #35365a;
+    background: transparent; /* no fill */
+    border-bottom: solid 1px #ffffff; /* white border on hover */
+}
+
+/* Accessibility & open state: mirror hover border */
+.main-category-btn:focus-visible {
+    outline: none;
+    border-color: #ffffff;
+}
+
+.main-category-btn.open {
+    border-color: #ffffff;
+}
+
+/* when dropdown is open, make the button background transparent to avoid nested-box feel */
+.main-category-btn.open {
+    background: transparent;
 }
 
 .main-category-arrow {
@@ -66,12 +85,14 @@
     position: absolute;
     left: 0;
     top: 100%;
-    min-width: 180px;
+    /* make the dropdown a clear standalone box */
+    width: max(100%, 220px);
     background: #23243a;
-    border-radius: 0 0 8px 8px;
+    border-radius: 8px;
+    border: 1px solid #404a65;
     box-shadow: 0 8px 32px rgba(0, 0, 0, 0.18);
     padding: 16px 20px;
-    margin-top: 2px;
+    margin-top: 8px; /* a bit more separation from the button */
     animation: fadeInDropdown 0.18s;
     z-index: 2000;
 }

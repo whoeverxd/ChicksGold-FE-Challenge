@@ -3,7 +3,7 @@ import { customElement, bindable } from 'aurelia';
 const template = `<template>
   <ul class="main-categories-list">
     <li repeat.for="cat of categories" class="main-category-item">
-      <button class="main-category-btn" type="button" click.trigger="cat.isOpen = !cat.isOpen">
+  <button class="main-category-btn" class.bind="cat.isOpen ? 'open' : ''" type="button" click.trigger="cat.isOpen = !cat.isOpen">
         <span>\${cat.name}</span>
         <svg class="main-category-arrow" aria-expanded.bind="cat.isOpen" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
           <polyline points="6 9 12 15 18 9" />
